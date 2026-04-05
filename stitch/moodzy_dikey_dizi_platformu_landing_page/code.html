@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Moodzy | Dizinin Yeni Hâli</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-primary-container": "#2b006e",
+                      "background": "#0e0e12",
+                      "surface": "#0e0e12",
+                      "surface-container-lowest": "#000000",
+                      "on-tertiary-fixed-variant": "#005762",
+                      "on-primary": "#39008c",
+                      "error-dim": "#d73357",
+                      "on-tertiary": "#005762",
+                      "surface-bright": "#2c2b33",
+                      "on-surface": "#f9f5fc",
+                      "tertiary-fixed-dim": "#00d4ec",
+                      "secondary": "#ff6b9a",
+                      "on-primary-fixed": "#000000",
+                      "tertiary-fixed": "#00e3fd",
+                      "on-secondary-fixed": "#6d0032",
+                      "on-error-container": "#ffb2b9",
+                      "on-secondary": "#47001e",
+                      "outline-variant": "#48474d",
+                      "on-primary-fixed-variant": "#370086",
+                      "on-error": "#490013",
+                      "inverse-surface": "#fcf8ff",
+                      "on-background": "#f9f5fc",
+                      "secondary-dim": "#ff6b9a",
+                      "surface-container-high": "#1f1f25",
+                      "surface-tint": "#ba9eff",
+                      "on-tertiary-fixed": "#003840",
+                      "primary-fixed": "#ae8dff",
+                      "secondary-fixed-dim": "#ffadc1",
+                      "tertiary-container": "#00e3fd",
+                      "error": "#ff6e84",
+                      "on-surface-variant": "#acaab0",
+                      "surface-container": "#19191f",
+                      "primary-dim": "#8455ef",
+                      "inverse-on-surface": "#55545a",
+                      "on-secondary-container": "#fff5f6",
+                      "tertiary-dim": "#00d4ec",
+                      "surface-dim": "#0e0e12",
+                      "tertiary": "#81ecff",
+                      "surface-variant": "#25252c",
+                      "secondary-fixed": "#ffc1cf",
+                      "error-container": "#a70138",
+                      "secondary-container": "#b90a5a",
+                      "inverse-primary": "#6e3bd7",
+                      "outline": "#76747a",
+                      "on-tertiary-container": "#004d57",
+                      "primary-fixed-dim": "#a27cff",
+                      "surface-container-low": "#131318",
+                      "on-secondary-fixed-variant": "#a1004d",
+                      "surface-container-highest": "#25252c",
+                      "primary": "#ba9eff",
+                      "primary-container": "#ae8dff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "1rem",
+                      "lg": "2rem",
+                      "xl": "3rem",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Space Grotesk"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          },
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            border: 0.5px solid rgba(255, 255, 255, 0.1);
+        }
+        body { font-family: 'Inter', sans-serif; background-color: #0e0e12; color: #f9f5fc; }
+        h1, h2, h3, .font-headline { font-family: 'Space Grotesk', sans-serif; }
+      </style>
+</head>
+<body class="bg-background text-on-background">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/5 dark:bg-[#0e0e12]/60 backdrop-blur-xl border-b border-white/10 shadow-[0_8px_32px_0_rgba(139,92,246,0.1)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-[#f9f5fc]">Moodzy</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-[#ba9eff] font-bold border-b-2 border-[#ba9eff] pb-1 text-sm tracking-tight" href="#">Ana Sayfa</a>
+<a class="text-[#f9f5fc]/70 hover:text-[#f9f5fc] transition-colors text-sm font-medium tracking-tight" href="#">Nasıl Çalışır</a>
+<a class="text-[#f9f5fc]/70 hover:text-[#f9f5fc] transition-colors text-sm font-medium tracking-tight" href="#">Özellikler</a>
+<a class="text-[#f9f5fc]/70 hover:text-[#f9f5fc] transition-colors text-sm font-medium tracking-tight" href="#">İçerikler</a>
+<a class="text-[#f9f5fc]/70 hover:text-[#f9f5fc] transition-colors text-sm font-medium tracking-tight" href="#">Hakkında</a>
+<a class="text-[#f9f5fc]/70 hover:text-[#f9f5fc] transition-colors text-sm font-medium tracking-tight" href="#">İletişim</a>
+</div>
+<button class="bg-[#ae8dff] text-[#2b006e] px-6 py-2 rounded-full font-bold text-sm hover:scale-95 transition-all duration-200">Erken Erişim</button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex flex-col items-center justify-center pt-32 pb-20 overflow-hidden">
+<div class="absolute inset-0 z-0 overflow-hidden">
+<div class="absolute -top-[20%] -left-[10%] w-[60%] h-[60%] bg-primary/10 blur-[150px] rounded-full"></div>
+<div class="absolute top-[40%] -right-[10%] w-[50%] h-[50%] bg-secondary/10 blur-[150px] rounded-full"></div>
+</div>
+<div class="relative z-10 text-center max-w-5xl px-6">
+<h1 class="text-5xl md:text-7xl font-bold tracking-tighter mb-8 leading-tight">
+                Dizinin yeni hâli: <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-tertiary">dikey, hızlı, bağımlılık yaratan.</span>
+</h1>
+<p class="text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto mb-12">
+                Telefonun için tasarlanmış premium dikey dramalarla hikâyenin içine gir. 2 dakikada maksimum duygu, her kaydırmada yeni bir evren.
+            </p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center mb-20">
+<button class="bg-gradient-to-r from-primary to-primary-dim text-on-primary-container px-10 py-5 rounded-lg text-lg font-bold shadow-[0_0_20px_rgba(186,158,255,0.4)] hover:scale-105 transition-transform">
+                    Erken Erişim Al
+                </button>
+<button class="glass-panel text-on-surface px-10 py-5 rounded-lg text-lg font-semibold hover:bg-white/10 transition-colors">
+                    Platformu Keşfet
+                </button>
+</div>
+<!-- Phone Mockup -->
+<div class="relative mx-auto w-full max-w-[320px] aspect-[9/19] rounded-[3rem] border-[8px] border-surface-container-highest shadow-2xl overflow-hidden group">
+<img class="w-full h-full object-cover" data-alt="cinematic close-up of a dramatic confrontation scene on a vertical phone screen with moody neon lighting and intense facial expressions" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnY3kgBhQ2uPGSLIzXZWAVpjhvKilXA5s7YMTtfgkjvkqq-ekjn7bKZp0Ce3N14PKU6ZK-HIuJQUPlU9TIvRk58ynWD5q4XTRdhraKmW8Bz1nN6s9-ZazYzQWWuC87kvfaFBXqRFLzMwtthbPjBz1SmCnmL_ab6L8RHJShKWch6-lALILRmxXQWLGzcOOurfka97htq0UNwPteeXIi4v4NUEo0_zUg-_FMAm9k5bN9mvCkGHV49-jyAJFBVYamLA3d0LKuANSMIpo-"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<!-- UI Mood Tags -->
+<div class="absolute top-1/2 -right-4 flex flex-col gap-3 group-hover:translate-x-[-10px] transition-transform duration-500">
+<span class="bg-secondary text-white text-xs px-4 py-2 rounded-full font-bold shadow-lg">#GERİLİM</span>
+<span class="bg-tertiary text-on-tertiary-container text-xs px-4 py-2 rounded-full font-bold shadow-lg">#GİZEM</span>
+</div>
+<div class="absolute bottom-8 left-6 right-6">
+<div class="h-1 w-full bg-white/30 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-2/3"></div>
+</div>
+<div class="mt-4 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span>
+</div>
+<span class="text-[10px] font-bold">BÖLÜM 12</span>
+</div>
+<span class="material-symbols-outlined">favorite</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Mood Bazlı Keşif -->
+<section class="py-32 px-8 max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div>
+<p class="text-primary font-bold tracking-widest text-sm uppercase mb-4">Senin Seçimin</p>
+<h2 class="text-4xl md:text-5xl font-bold tracking-tight">Ruh hâline göre içerik keşfi</h2>
+</div>
+<div class="flex flex-wrap gap-3">
+<button class="px-6 py-2 rounded-full bg-secondary text-on-secondary font-bold text-sm">Fun</button>
+<button class="px-6 py-2 rounded-full glass-panel hover:bg-primary/20 transition-colors text-sm font-bold">Romantic</button>
+<button class="px-6 py-2 rounded-full glass-panel hover:bg-primary/20 transition-colors text-sm font-bold">Dark</button>
+<button class="px-6 py-2 rounded-full glass-panel hover:bg-primary/20 transition-colors text-sm font-bold">Tension</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Recommendation Cards -->
+<div class="glass-panel p-8 rounded-xl flex flex-col gap-6 group hover:scale-[1.02] transition-transform">
+<div class="relative rounded-lg overflow-hidden aspect-[4/5]">
+<img class="w-full h-full object-cover" data-alt="atmospheric neon-lit street scene with a lonely figure walking under a pink umbrella in Tokyo at night" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeoU_Sab9lTDeP26qYSH4HcyB3HQ0jJ1hmuQzivHS5x6W4rD1lx2YW8Q5og3mcYp0cVnna_zs7H3FcChu9ifEvYAx3xI333Nwt7LS2YbYPi4FxmvQCu3hITbOEW-ozgqbkR4TJ-H8j-893oMMUVFlqcsDEQgkP3g2IMulUzBEkKa4j-Qllz5CqN-GRjlzGWloSXcMpJbJO2giOLpAEIPUvXDanITz8f8zoYr_4r8BJURjx2cgdhkJ-G08qg1q5uhKkEeaz3u4PmgXE"/>
+</div>
+<div>
+<h3 class="text-2xl font-bold mb-2">Neon Sokaklar</h3>
+<p class="text-on-surface-variant text-sm">Bir aşk hikâyesi değil, bir hayatta kalma savaşı. Dikey sinemanın zirvesi.</p>
+</div>
+</div>
+<div class="glass-panel p-8 rounded-xl flex flex-col gap-6 group hover:scale-[1.02] transition-transform md:translate-y-12">
+<div class="relative rounded-lg overflow-hidden aspect-[4/5]">
+<img class="w-full h-full object-cover" data-alt="mysterious figure standing in a foggy forest with glowing blue orbs floating around them, cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMdmCjl_okU_52qnN9sfpIUReNDjXsLEtZ59VR0DYOMJGGQ2phvmnv0f7nYMQH1BUS9MGdfg7xO1he7RPkgUCO_HnwpQ8PAN7c59-hfWLPcHzRt5ZndMsG6YLtbuJocHYr9SKFtsy-0yRuvkfAfx-IA80nr0vh3W8JwsxCxRXDxzQihTi8avDoSQGFFubfjY7Ieoq6QN3KFcq6ZjcE3ZXWPaOlyNPRWTtiWovMPTrKOSMUciBhcNkcmg6iDGxmk2klrtEFHLupannq"/>
+</div>
+<div>
+<h3 class="text-2xl font-bold mb-2">Sisli Hatıralar</h3>
+<p class="text-on-surface-variant text-sm">Geçmişinden kaçan bir dedektifin 60 saniyelik gerilim dolu anları.</p>
+</div>
+</div>
+<div class="glass-panel p-8 rounded-xl flex flex-col gap-6 group hover:scale-[1.02] transition-transform">
+<div class="relative rounded-lg overflow-hidden aspect-[4/5]">
+<img class="w-full h-full object-cover" data-alt="dynamic close up of a dancer in motion with trail of lights and high energy colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQmBe9ZmCl9XEji8xnK9-3dL1N6JTyk5k3DggJ6zyYAzAR3rvLE-bK2rLnQObr4FX3O8PllJGjmZDFyK0MOqxE-yII7wgQ76Q-Tr9guqviB2sJuGpV8EpvTbTgH7LuYW0SIZGJQJaqT1Cj6rLJJVXx360LNq-O0wsi4g8p0gCsR-a3WWYAE1KrNV3e8Hpfv6QBUsU3vcYp91CKkrgXfi_QDAHqqegl5NeCMy3DhUydhE_YXcPUVPv1biSMgfPRRRooflkQRNIfkU8y"/>
+</div>
+<div>
+<h3 class="text-2xl font-bold mb-2">Ritmin Sesi</h3>
+<p class="text-on-surface-variant text-sm">Hayallerinin peşinden giden bir gencin müzikal yolculuğu.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Dikey İzleme Deneyimi -->
+<section class="py-32 bg-surface-container-low overflow-hidden">
+<div class="px-8 max-w-7xl mx-auto mb-16">
+<h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">Dikey İzleme Deneyimi</h2>
+<p class="text-on-surface-variant max-w-xl">Ekranı döndürme devri bitti. Tüm içeriklerimiz başından itibaren dikey format için kurgulandı.</p>
+</div>
+<div class="flex gap-8 overflow-x-auto px-8 pb-12 snap-x no-scrollbar">
+<!-- Feed Items -->
+<div class="min-w-[280px] aspect-[9/16] rounded-lg overflow-hidden snap-center relative group">
+<img class="w-full h-full object-cover" data-alt="vibrant abstract background with swirling neon colors and digital patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtZGTVGQHtQTUk1U8yFHjvRdtFwigZIzKYQKFDFYjzNNbpAFx9G3_lGfroVfREJQ4wPpmBr6jFLrxk66PwBOvCh8GTc2zuaAj9Kc3_WCrtGe2bK44CoRHN8TcDa6dRJjQHXFtwT09EuROu5PXjAZIQCIqHuq8UDJjRNgbQiboJiYkfu-qr2H0cQSlram8Jads_l0OoXshwXU6VCh90Xrw5lMisQB2flmK-6vgXPIYhkNP7iGSqoKIUuM_vC09OnF3z4wRcgjwwFkd-"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<span class="text-xs font-bold text-tertiary">#01 AKSİYON</span>
+<h4 class="text-lg font-bold">Kırılma Noktası</h4>
+</div>
+</div>
+<div class="min-w-[280px] aspect-[9/16] rounded-lg overflow-hidden snap-center relative group">
+<img class="w-full h-full object-cover" data-alt="cinematic portrait of a mysterious woman in a rainy urban setting with colorful street lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5fdq7trtHznWIHjguaeeSUWrk5ayj698o97mQXk_aDvR6cyXjMVgPDw5EfVFNhA9eQ-lV7R9wb85VrnTFOUCdwsvkHqtoWi2Xgc4d8bCXjsugfw-PXe0g2tMyYmXjPj4UFZgQxiMQohf3-MHcUkKWTmwZUAUIiU6Bk57mkSCA29AmX9bN8f0mRvwengjFOpKcRIrze1L8XAj4NN6RvUzwPJLsMLYKlJLuzDHlrj7ereAJGiWqth6EBldRpkKKWe9n7-09NWU7LICH"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<span class="text-xs font-bold text-secondary">#02 DRAMA</span>
+<h4 class="text-lg font-bold">Son Gece</h4>
+</div>
+</div>
+<div class="min-w-[280px] aspect-[9/16] rounded-lg overflow-hidden snap-center relative group">
+<img class="w-full h-full object-cover" data-alt="low light party scene with blurred lights and a sense of movement and excitement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHFsQD6ig1YCjV3AHJgPKH8Nkr58oDdIuh_JekZVOObC7KZ1DeaSS96AblSsKWQNoZdK_qB43YbgkwDaNVAFL3vt8mqtb0XQvQc4TpLO-ofE52BgKtHJWd3pSyqEHNfRhYFdivB_-IpxQrBa8On0l2bKoiHGviPD3SRoOROI6oXpOTKapgoe28zV1tDWBxYXGfAJ9dNPP-YzZRNQFe_OGYM6fI1OrdFRNv9UAFMR5QMyh3htAEhpt2w275ixaDjZGZS9Kjy25VQB0g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<span class="text-xs font-bold text-primary">#03 KOMEDİ</span>
+<h4 class="text-lg font-bold">Şaka Gibi</h4>
+</div>
+</div>
+<div class="min-w-[280px] aspect-[9/16] rounded-lg overflow-hidden snap-center relative group">
+<img class="w-full h-full object-cover" data-alt="artistic shot of a modern city at night with light trails and futuristic architecture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvi7F3QWTEDeaqnEMyr2Q3UGb8vfqnYrEVlSoOuk6DnNJHZPXg8ss8VRuJhCS58W7iSiSj7XexukNWNUqD8OixSmR4CSpNOBaqvRe4bLDH7d4YUDpfjSIXhZmiUXMAc5apdXIE3rbSf80VQdUFyDO8RKS1FQDlsG2e_j8EiRvxxgPwhyC9KaZtCZ5SXILfZILpbU1bGwXKpbwmExOdyGob08eJ-wW3j7_6cwg3lvkJUyFpupcfvBv_d61Jy2nCoba7mKb7_8fJlFDQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<span class="text-xs font-bold text-tertiary">#04 BİLİMKURGU</span>
+<h4 class="text-lg font-bold">Siber Gökyüzü</h4>
+</div>
+</div>
+<div class="min-w-[280px] aspect-[9/16] rounded-lg overflow-hidden snap-center relative group">
+<img class="w-full h-full object-cover" data-alt="minimalist aesthetic background with a single bright neon element against a dark void" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCn3oNmMc7Gtd73tpU_NW6JxDkTeIZjwugzZZy5elhw1d2qvEby0zMC_hIYrEERE2zJESTsM7acKztLomnDYNSGH7T-kV67Mz56hiKFSEQTLJ0UPi3fHrddux4RKNvco7gqmp1mjTew6VB0MAzcWMmBmjwTZG6aVi_Ne7G3C2HxgBUMluU2NX_q2BM3Crv9nC63N2vUNriMmV0_kAiYPw2DxESkJ3L-CziRL-4Cy8QWcwXy44zE64uKMLziNrp8JqkWOxoK05aix_I-"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<span class="text-xs font-bold text-secondary">#05 ROMANTİK</span>
+<h4 class="text-lg font-bold">Kayıp Zaman</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- Kısa Ama Güçlü Hikâyeler -->
+<section class="py-32 px-8 max-w-7xl mx-auto">
+<div class="text-center mb-20">
+<h2 class="text-4xl md:text-6xl font-bold tracking-tighter mb-4">Uzun değil, etkili.</h2>
+<p class="text-on-surface-variant max-w-xl mx-auto">Vaktin değerli. Biz hikâyeyi sündürmüyoruz, doğrudan kalbine dokunuyoruz.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="flex flex-col items-center text-center p-8 rounded-xl bg-surface-container-high border border-white/5">
+<div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-primary text-3xl">timer</span>
+</div>
+<h3 class="text-xl font-bold mb-4">1-2 Dakikalık Bölümler</h3>
+<p class="text-on-surface-variant text-sm">Durakta beklerken, kahve içerken veya yoldayken bir bölüm bitir.</p>
+</div>
+<div class="flex flex-col items-center text-center p-8 rounded-xl bg-surface-container-high border border-white/5">
+<div class="w-16 h-16 bg-secondary/20 rounded-full flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-secondary text-3xl">bolt</span>
+</div>
+<h3 class="text-xl font-bold mb-4">Hızlı Duygusal Etki</h3>
+<p class="text-on-surface-variant text-sm">Hikâye akışı hızlandırılmış kurguyla sizi ilk saniyeden yakalar.</p>
+</div>
+<div class="flex flex-col items-center text-center p-8 rounded-xl bg-surface-container-high border border-white/5">
+<div class="w-16 h-16 bg-tertiary/20 rounded-full flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-tertiary text-3xl">auto_awesome</span>
+</div>
+<h3 class="text-xl font-bold mb-4">Sonsuz Değil Seçilmiş Akış</h3>
+<p class="text-on-surface-variant text-sm">Algoritmalar değil, editörlerimiz tarafından küratörlüğü yapılmış içerikler.</p>
+</div>
+</div>
+</section>
+<!-- Nasıl Çalışır -->
+<section class="py-32 bg-[#0e0e12]">
+<div class="max-w-7xl mx-auto px-8">
+<h2 class="text-4xl md:text-5xl font-bold mb-20 text-center">Modern bir izleme serüveni</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 relative">
+<div class="absolute top-1/2 left-0 w-full h-[1px] bg-white/10 hidden md:block z-0"></div>
+<div class="relative z-10 p-8 glass-panel rounded-xl">
+<div class="text-6xl font-bold text-primary/20 absolute -top-8 -left-4">01</div>
+<h3 class="text-xl font-bold mb-4 mt-4">Moodunu Seç</h3>
+<p class="text-on-surface-variant text-sm">O an nasıl hissediyorsan ona uygun kategoriyi belirle.</p>
+</div>
+<div class="relative z-10 p-8 glass-panel rounded-xl">
+<div class="text-6xl font-bold text-secondary/20 absolute -top-8 -left-4">02</div>
+<h3 class="text-xl font-bold mb-4 mt-4">Keşfet</h3>
+<p class="text-on-surface-variant text-sm">Yüzlerce dikey drama arasından ilgini çeken başlığı seç.</p>
+</div>
+<div class="relative z-10 p-8 glass-panel rounded-xl">
+<div class="text-6xl font-bold text-tertiary/20 absolute -top-8 -left-4">03</div>
+<h3 class="text-xl font-bold mb-4 mt-4">İzle</h3>
+<p class="text-on-surface-variant text-sm">Tek elle kontrol edilebilen arayüzle izlemeye başla.</p>
+</div>
+<div class="relative z-10 p-8 glass-panel rounded-xl">
+<div class="text-6xl font-bold text-white/10 absolute -top-8 -left-4">04</div>
+<h3 class="text-xl font-bold mb-4 mt-4">Paylaş</h3>
+<p class="text-on-surface-variant text-sm">Favori anlarını anında arkadaşlarınla paylaş ve tartış.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- İçerik Evreni -->
+<section class="py-32 px-8 max-w-7xl mx-auto">
+<h2 class="text-4xl md:text-5xl font-bold mb-16">Her mood için ayrı bir evren</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+<div class="relative aspect-[2/3] rounded-lg overflow-hidden group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" data-alt="classic movie set scene with a director's chair and film equipment in high contrast" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASssIBiWpVV-I1w0XTtFyMSndZb1YPYA_NBMCrfpIQr-TXpRRvoRxoVYKx-cZkIwNB_j0eRxKY3Ota5D6syCikbIcSicFFzxzHq42BlZgJstJ2UsZqr1i--sQLqj1Lp0EkJV_y4MEL_Li0MEULQsh3RP_APiXeK0nr3TQgAkyT9joLEGPhOLoGrTnEQGpQTJDyara31hQPpJ1jdqF3PKEkAUyTWq1zFtnPeA12lsVVkDScmODg-krux7iSpiDT5higCh-8sp3iGFYa"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+<div class="absolute bottom-4 left-4 font-bold text-lg">Romantik</div>
+</div>
+<div class="relative aspect-[2/3] rounded-lg overflow-hidden group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" data-alt="dark and moody recording studio with red neon lights and vintage headphones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5fvUKwJTBT4Jy-cXTswvZ9FkFOPtlXm7ETGmEFweo0o7UpMBGO16lBrFwiuqQkCxtaICOOoEqH7pRBUmNebC4rQGbKJnSkHsRM6svVK9gux_kJK3KeHCHS7V9QQDjn6EtjnQp29Z_FYeljTEENyOfF-azGK0JbMx0XMLpSHHOHvroZg_G9a11Yq8bK1afr3RDHmgf83YAT1C0OBNbqKR5qMfdEv9iV_hvHLcWqJtkQ3WdwR4c7sO6gW2VA3wGBaq6L2cbfgLwDopE"/>
+<div class="absolute inset-0 bg-secondary/20 group-hover:bg-transparent transition-colors"></div>
+<div class="absolute bottom-4 left-4 font-bold text-lg">Gerilim</div>
+</div>
+<div class="relative aspect-[2/3] rounded-lg overflow-hidden group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" data-alt="silhouette of a person looking at a massive projection screen in a dark gallery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-75TcGmRBKsSMV7u6b3QwuLhlDqju-U3PO87xFqRMzSGEAVUQ23LxTYmP3N_gg33OM0l_JbUIgyhRpqcaZ32AMCmX9muu3dQ8BcdS5BOvlHhmgyCL7DhOHozgT6MXAlkpJ1Hs_RfjglfaVaxOPhO3tuFwAGPugOp-svLcMbhKvDNOAtax3IBMYu10Aquww2_PcQGt0fKy-r6-4I1p4CgZOWdpUTRCWjMTHiJ4DZUDAV7FuKVA--Kud27vX9O7rIr-xQJTBTZNGr2J"/>
+<div class="absolute inset-0 bg-tertiary/20 group-hover:bg-transparent transition-colors"></div>
+<div class="absolute bottom-4 left-4 font-bold text-lg">Dram</div>
+</div>
+<div class="relative aspect-[2/3] rounded-lg overflow-hidden group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" data-alt="abstract sci-fi scene with neon portals and geometric structures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtxb7yDfqM0HhC1lsgRW6Y0NJdxjZIWH1JgHPLBz3z16eroFR0SMVJFxLqgV4D87dqRVFtBN8M85oolyM3yGMZR9G_X2uBz9coF9ZUcp4oAAp78sRYf0mUv4P7frwcfx5Jy-Fz9M0X481r6CiRYIVU8XH-FCKTVAV3PU3E8keEfMg5hCdoLGRYnJoOzJeV2QibdcSPatlYMGPBlB06YgWsmMJaGYvORLkLcvFDxMEM6aVYOxrGofRoXBkYB0kKR9nZp1qkbN4UtXae"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+<div class="absolute bottom-4 left-4 font-bold text-lg">Bilimkurgu</div>
+</div>
+<div class="relative aspect-[2/3] rounded-lg overflow-hidden group">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" data-alt="low angle shot of a person jumping between two urban buildings at twilight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuLkWD-pY3rdhN6zu8WyHIlce8VW_0hlNgmpqliLee8cFbZGsZbltmKfrzJ_aJmJ2hIjIi6jF9zGCf48Ol5NL3ulQYwjxUVEz6D6AXxMc8RZTsmzo4oWhWRBhcGaJc6VxogNwTIVLbNCC2q0YBQkEfP0FjUogWUQtz-2MPcGYhMuPzF6WDKKSZT74Ds0IOsi-a7AC4gv9dfFUfyJ79AVUDjUHHNHAywfpJlVRC8EnHuORbT8h0sjXpMqTQQek8-VCZc6afWZl3pwW0"/>
+<div class="absolute inset-0 bg-secondary/20 group-hover:bg-transparent transition-colors"></div>
+<div class="absolute bottom-4 left-4 font-bold text-lg">Aksiyon</div>
+</div>
+</div>
+</section>
+<!-- Neden Moodzy -->
+<section class="py-32 px-8 max-w-7xl mx-auto">
+<div class="glass-panel rounded-xl overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-2">
+<div class="p-12 bg-surface-container-high border-r border-white/5">
+<h3 class="text-2xl font-bold mb-8">Klasik Platformlar</h3>
+<ul class="space-y-6">
+<li class="flex items-start gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-error">close</span>
+<span>Yatay format, telefonu sürekli döndürme gereksinimi.</span>
+</li>
+<li class="flex items-start gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-error">close</span>
+<span>45-60 dakikalık uzun bölümler, odaklanma zorluğu.</span>
+</li>
+<li class="flex items-start gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-error">close</span>
+<span>Aylık yüksek abonelik ücretleri ve hantal arayüz.</span>
+</li>
+</ul>
+</div>
+<div class="p-12 bg-gradient-to-br from-primary/10 to-secondary/10">
+<h3 class="text-2xl font-bold mb-8 text-primary">Moodzy Deneyimi</h3>
+<ul class="space-y-6">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span>%100 Dikey, tek elle mükemmel kullanım.</span>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span>1-2 Dakikalık, her an tüketilebilir bölümler.</span>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span>Esnek izle-öde veya ekonomik premium paketler.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Yatırımcı / İş Ortağı Alanı -->
+<section class="py-32 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<p class="text-tertiary font-bold tracking-widest text-sm uppercase mb-4">Geleceğin Ekonomisi</p>
+<h2 class="text-4xl md:text-5xl font-bold">Yeni nesil içerik ekonomisinin parçası ol</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div class="lg:col-span-2">
+<p class="text-2xl text-on-surface-variant leading-relaxed mb-8">
+                        Vertical video dünyası sadece bir trend değil, içerik tüketiminin yeni standartı. Moodzy olarak biz, bu milyar dolarlık pazarda premium kurgusal içeriğin öncüsüyüz.
+                    </p>
+<button class="flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all">
+                        İş Ortaklığı Başvurusu Yap <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-6 glass-panel rounded-xl">
+<div class="text-3xl font-bold text-secondary mb-2">%400</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-tighter">Vertical İçerik Büyümesi</div>
+</div>
+<div class="p-6 glass-panel rounded-xl">
+<div class="text-3xl font-bold text-primary mb-2">25dk</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-tighter">Günlük Ortalama İzleme</div>
+</div>
+<div class="p-6 glass-panel rounded-xl">
+<div class="text-3xl font-bold text-tertiary mb-2">12M+</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-tighter">Hedeflenen Kullanıcı</div>
+</div>
+<div class="p-6 glass-panel rounded-xl">
+<div class="text-3xl font-bold text-white mb-2">45+</div>
+<div class="text-xs text-on-surface-variant uppercase tracking-tighter">Aktif Yapım Ortağı</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-32 px-8">
+<div class="max-w-7xl mx-auto bg-gradient-to-r from-primary via-secondary to-tertiary p-[1px] rounded-xl overflow-hidden">
+<div class="bg-background py-24 px-12 rounded-xl text-center relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-r from-primary/10 via-secondary/10 to-tertiary/10 opacity-50"></div>
+<div class="relative z-10">
+<h2 class="text-5xl md:text-7xl font-bold tracking-tighter mb-8">Dizinin geleceği dikey akıyor.</h2>
+<div class="flex flex-col sm:flex-row gap-6 justify-center">
+<button class="bg-primary text-on-primary-container px-12 py-4 rounded-full font-bold text-lg hover:shadow-[0_0_30px_rgba(186,158,255,0.5)] transition-shadow">Erken Erişimi Yakala</button>
+<button class="glass-panel text-on-surface px-12 py-4 rounded-full font-bold text-lg">Bültene Kaydol</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 mt-auto bg-[#0e0e12] border-t border-white/5">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-7xl mx-auto">
+<div class="flex flex-col gap-4">
+<div class="text-xl font-bold text-[#f9f5fc]">Moodzy</div>
+<p class="text-xs uppercase tracking-widest text-[#f9f5fc]/40">© 2024 Moodzy. Tüm hakları saklıdır.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-xs uppercase tracking-widest text-[#f9f5fc]/40 hover:text-[#ff6b9a] transition-colors" href="#">Gizlilik Politikası</a>
+<a class="text-xs uppercase tracking-widest text-[#f9f5fc]/40 hover:text-[#ff6b9a] transition-colors" href="#">Kullanım Koşulları</a>
+<a class="text-xs uppercase tracking-widest text-[#f9f5fc]/40 hover:text-[#ff6b9a] transition-colors" href="#">KVKK</a>
+<a class="text-xs uppercase tracking-widest text-[#f9f5fc]/40 hover:text-[#ff6b9a] transition-colors" href="#">Çerez Politikası</a>
+</div>
+<div class="flex gap-4">
+<div class="w-10 h-10 rounded-full glass-panel flex items-center justify-center hover:text-[#ff6b9a] cursor-pointer">
+<span class="material-symbols-outlined text-lg">share</span>
+</div>
+<div class="w-10 h-10 rounded-full glass-panel flex items-center justify-center hover:text-[#ff6b9a] cursor-pointer">
+<span class="material-symbols-outlined text-lg">notifications</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
