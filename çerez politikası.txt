@@ -1,0 +1,66 @@
+MOODZY ÇEREZ  POLİTİKASI
+Son Güncelleme Tarihi: 12 Şubat 2026
+
+Moodzy ("Platform") olarak, kullanıcı deneyiminizi geliştirmek, içeriklerimizi kişiselleştirmek ve reklamlarımızın performansını ölçmek amacıyla çerezler , pikseller ve benzeri takip teknolojilerini kullanıyoruz. İşbu Çerez Politikası, hangi teknolojileri kullandığımızı ve bu konudaki haklarınızı açıklamak amacıyla hazırlanmıştır.
+
+1. ÇEREZ NEDİR?
+
+Çerezler, bir web sitesini ziyaret ettiğinizde veya bir mobil uygulamayı kullandığınızda cihazınıza (bilgisayar, akıllı telefon, tablet) kaydedilen küçük metin dosyalarıdır. Bu dosyalar, platformun sizi tanımasını, tercihlerinizi hatırlamasını ve size özel bir deneyim sunulmasını sağlar.
+
+2. ÇEREZLERİ KULLANIM AMAÇLARIMIZ
+
+Moodzy üzerinde çerezleri aşağıdaki temel amaçlar doğrultusunda kullanıyoruz:
+
+Operasyonel Zorunluluk: Giriş yaparken (Manuel, Apple veya Google) oturumunuzun açık kalmasını sağlamak ve güvenlik açıklarını tespit etmek.
+
+Tercihler ve Fonksiyonellik: İzlediğiniz dizilerde kaldığınız yeri hatırlamak, dil seçiminizi kaydetmek ve ses ayarlarınızı korumak.
+
+Performans ve Analiz: Platformun hangi bölümlerinin daha çok tıklandığını anlamak ve teknik hataları (çökme raporları gibi) analiz etmek.
+
+Kişiselleştirilmiş Reklamcılık: İlgi alanlarınıza uygun kısa dizileri veya üçüncü taraf reklamlarını size göstermek.
+
+3. Kullandığımız Çerez Türleri ve Detayları
+
+Platformumuzda kullanıcı deneyimini geliştirmek, hizmetlerin güvenliğini sağlamak ve reklam ile analiz faaliyetlerini yürütmek amacıyla çeşitli çerezler ve benzer takip teknolojileri kullanılmaktadır. Kullanılan çerez türleri ve saklama süreleri aşağıda açıklanmaktadır:
+
+Zorunlu Çerezler
+
+Zorunlu çerezler, platformun temel işlevlerinin çalışabilmesi için gereklidir. Bu çerezler olmadan kullanıcı hesabına giriş yapılması, oturumun devam ettirilmesi, güvenlik doğrulamalarının gerçekleştirilmesi ve gizlilik tercihlerinin saklanması mümkün değildir. Bu çerezler kullanıcı onayına tabi olmaksızın çalışır, çünkü hizmetin sunulabilmesi için teknik olarak zorunludur. Zorunlu çerezler yalnızca oturum süresi boyunca aktif olup, oturum kapatıldığında veya uygulama kapatıldığında otomatik olarak silinir.
+
+İşlevsel Çerezler
+
+İşlevsel çerezler, kullanıcı deneyimini kişiselleştirmek amacıyla kullanılır. Bu çerezler sayesinde video oynatıcı ayarları (örneğin ses seviyesi, altyazı tercihi, görüntü kalitesi), dil seçimi ve diğer kullanıcı tercihleriniz hatırlanır. Böylece platformu her ziyaret ettiğinizde ayarlarınızı yeniden yapılandırmanız gerekmez. İşlevsel çerezler genellikle 1 yıl süreyle saklanır ve bu sürenin sonunda otomatik olarak silinir veya yenilenir.
+
+Analitik Çerezler
+
+Analitik çerezler, platform kullanımını analiz etmek ve hizmet kalitesini artırmak amacıyla kullanılmaktadır. Google Analytics, Firebase ve AppsFlyer gibi üçüncü taraf analiz araçları aracılığıyla; kullanıcı sayısı, oturum süresi, izleme davranışları, uygulama performansı ve teknik hatalar gibi istatistiksel veriler toplanır. Bu veriler anonim veya takma ad (pseudonymous) hale getirilmiş şekilde işlenir ve doğrudan kimliğinizi tespit etmeye yönelik kullanılmaz. Analitik çerezler en fazla 2 yıl süreyle saklanır.
+
+Reklam ve Pazarlama Çerezleri
+
+Reklam ve pazarlama çerezleri, kullanıcılara ilgi alanlarına göre özelleştirilmiş reklamlar sunulmasını sağlamak amacıyla kullanılır. Facebook Pixel ve Google AdMob gibi reklam teknolojileri aracılığıyla; reklam gösterim sıklığı, reklam etkileşimi ve kampanya performansı ölçülür. Bu çerezler sayesinde aynı reklamın tekrar tekrar gösterilmesi engellenir ve kullanıcı deneyimi optimize edilir. Reklam çerezleri en fazla 90 gün süreyle saklanır. Kullanıcılar cihaz ayarları veya uygulama içi tercih ekranı üzerinden reklam kişiselleştirmeyi devre dışı bırakabilir.
+4. ÜÇÜNCÜ TARAF ÇEREZLERİ VE SDK'LAR
+
+Moodzy mobil uygulaması, web sitesinden farklı olarak SDK (Software Development Kit) adı verilen teknolojileri kullanır. Özellikle şu iş ortaklarımızla veri paylaşımı yapılmaktadır:
+
+Google (Analytics & AdMob): Kullanım analizi ve reklam yerleşimi.Meta (Facebook SDK): Sosyal medya üzerinden giriş ve reklam dönüşüm takibi.
+
+AppsFlyer: Uygulamanın hangi reklam kanalı üzerinden indirildiğinin tespiti.
+
+5. ÇEREZLERİ NASIL KONTROL EDEBİLİRSİNİZ?
+
+Çerezlerin kullanımına ilişkin seçimlerinizi yönetmek sizin elinizdedir:
+
+Uygulama Ayarları: Moodzy içerisindeki "Gizlilik Ayarları" bölümünden reklam ve analiz çerezlerini dilediğiniz zaman kapatabilirsiniz.
+
+Mobil Cihaz Ayarları:iOS: Ayarlar > Gizlilik > Takip Etme > "Uygulamaların Takip İzni İstemesine İzin Ver" seçeneği.
+
+Android: Google Ayarlar > Reklamlar > "Reklam Kişiselleştirmeyi Devre Dışı Bırak".Tarayıcı Ayarları: Web üzerinden erişiyorsanız, tarayıcınızın (Chrome, Safari, vb.) ayarlar kısmından tüm çerezleri reddedebilir veya silebilirsiniz.
+
+6. VERİ SAKLAMA VE 24 SAAT TAAHHÜDÜ
+
+Gizlilik Politikamızda da belirttiğimiz üzere, hesabınızı silme talebinde bulunduğunuzda, çerezler vasıtasıyla toplanan ve kimliğinizle eşleşen tüm veriler 24 saat içerisinde sistemlerimizden kalıcı olarak temizlenir.
+
+7. GÜNCELLEMELER VE İLETİŞİM
+
+Platform geliştikçe çerez teknolojilerimiz de değişebilir. Bu politikadaki her türlü değişiklik yine bu sayfa üzerinden duyurulacaktır.
+İletişim: Çerezler hakkında sorularınız için bize info@moodzyapp.com adresinden ulaşabilirsiniz.
