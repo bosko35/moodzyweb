@@ -6,10 +6,10 @@ GİRİŞ VE SÖZLEŞMENİN KABULÜ
 
 ÖNEMLİ HUKUKİ UYARI: PLATFORMA ERİŞEREK, KAYIT OLARAK VEYA İÇERİK İZLEYEREK, BU ŞARTLARI KOŞULSUZ OLARAK KABUL ETTİĞİNİZİ VE BUNLARA TAMAMEN UYMAYI TAAHHÜT ETTİĞİNİZİ ONAYLARSINIZ. BU ŞARTLAR SİZİNLE MOODZY ARASINDA YASAL OLARAK BAĞLAYICI BİR ANLAŞMA OLUŞTURUR. EĞER BU ŞARTLARI KABUL ETMİYORSANIZ, LÜTFEN PLATFORMU KULLANMAYIN VE TÜM ERİŞİMİNİZİ DERHAL SONLANDIRIN.
 
-1. UYGUNLUK VE YAŞ SINIRLAMASI (16+)
-Moodzy, 16+ yönelik kısa dizi ve eğlence içerikleri sunan bir platformdur.
+1. UYGUNLUK VE YAŞ SINIRLAMASI (13+)
+Moodzy, 13+ yönelik kısa dizi ve eğlence içerikleri sunan bir platformdur.
 
-Minimum Yaş: Platformu kullanmak için en az 1 (on altı) yaşında olmalısınız. Bu Şartları kabul ederek, bize en az 16 yaşında olduğunuzu, daha önce Hizmetten uzaklaştırılmadığınızı ve kaydınızın tüm geçerli yasa ve yönetmeliklere (Türkiye, Brezilya, Meksika, Suudi Arabistan ve Mısır dahil) uygun olduğunu beyan ve garanti edersiniz.
+Minimum Yaş: Platformu kullanmak için en az 13 (on üç) yaşında olmalısınız. Bu Şartları kabul ederek, bize en az 13 yaşında olduğunuzu, daha önce Hizmetten uzaklaştırılmadığınızı ve kaydınızın tüm geçerli yasa ve yönetmeliklere  uygun olduğunu beyan ve garanti edersiniz.
 
 Doğrulama: Moodzy, şüpheli durumlarda yaş doğrulama kanıtı talep etme hakkını saklı tutar. 13 yaş altındaki bir bireyin platformu kullandığının tespiti halinde, hesap derhal kapatılır ve verileri imha edilir.
 
@@ -36,7 +36,7 @@ Sonuç: 24 saatlik süre dolduktan sonra silinen bir hesabı geri getirmek veya 
 
 4.2. Mülkiyet: Platformda yer alan tüm senaryolar, videolar, müzikler, yazılım kodları, logolar ve arayüz tasarımları Moodzy'nin veya lisans verenlerinin mülkiyetindedir. Bu Şartlar, size hiçbir mülkiyet hakkı devretmez.
 
-4.3. İhlal Bildirimi: Fikri mülkiyet haklarınızın ihlal edildiğini düşünüyorsanız, legal@moodzy.com adresine resmi bir bildirim gönderebilirsiniz.
+4.3. İhlal Bildirimi: Fikri mülkiyet haklarınızın ihlal edildiğini düşünüyorsanız, info@moodzy.com adresine resmi bir bildirim gönderebilirsiniz.
 
 5. ÖDEME ŞARTLARI VE SANAL PARA (MOODZY COIN)
 5.1. Coin Sistemi: Platformdaki kilitli içerikleri açmak için kullanılan "Moodzy Coin" bir sanal para birimidir. Coin'ler yalnızca uygulama içinde geçerlidir ve gerçek paraya dönüştürülemez.
@@ -81,4 +81,4 @@ Destek/Hukuki E-posta: info@moodzyapp.com
 
 Yasal Bildirimler: Hesabınızda kayıtlı e-posta adresine yapılan gönderimler, geçerli tebligat yerine geçer.
 
-Son Onay: Bu Platformu kullanarak, yukarıdaki şartları ve bölgeye özgü hükümleri koşulsuz olarak kabul ettiğinizi, 16 yaşından büyük olduğunuzu ve kişisel verilerinizin "Gizlilik Politikası"na uygun olarak işlenmesine rıza gösterdiğinizi onaylarsınız.
+Son Onay: Bu Platformu kullanarak, yukarıdaki şartları ve bölgeye özgü hükümleri koşulsuz olarak kabul ettiğinizi, 13 yaşından büyük olduğunuzu ve kişisel verilerinizin "Gizlilik Politikası"na uygun olarak işlenmesine rıza gösterdiğinizi onaylarsınız.

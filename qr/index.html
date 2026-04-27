@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+  <title>Moodzy | QR</title>
+  
+  <!-- SEO & Social Meta -->
+  <meta name="description" content="Moodzy - Dikey dizi deneyimiyle kısa süreli ama yoğun hikayelere adım at. Hemen indir ve izlemeye başla." />
+  <meta property="og:title" content="Moodzy | Hikayeni Seç" />
+  <meta property="og:description" content="Dikey kurgu, hızlı tempo. Bir sonraki bölüm parmağının ucunda." />
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              purple: "#ba9eff",
+              pink: "#ff6b9a",
+              cyan: "#81ecff",
+              dark: "#0a0a0f",
+              surface: "#12121a"
+            }
+          },
+          fontFamily: {
+            sans: ["Plus Jakarta Sans", "sans-serif"],
+            display: ["Outfit", "sans-serif"]
+          },
+          animation: {
+            'gradient-x': 'gradient-x 15s ease infinite',
+            'float': 'float 6s ease-in-out infinite',
+            'pulse-slow': 'pulse-slow 4s ease-in-out infinite',
+          },
+          keyframes: {
+            'gradient-x': {
+              '0%, 100% { background-position: 0% 50%; }',
+              '50% { background-position: 100% 50%; }',
+            },
+            'float': {
+              '0%, 100% { transform: translateY(0px); }',
+              '50% { transform: translateY(-20px); }',
+            },
+            'pulse-slow': {
+              '0%, 100% { opacity: 0.3; transform: scale(1); }',
+              '50% { opacity: 0.6; transform: scale(1.1); }',
+            }
+          }
+        }
+      }
+    };
+  </script>
+  
+  <style>
+    :root {
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    body {
+      background-color: #0a0a0f;
+      color: #f9f5fc;
+      overflow-x: hidden;
+    }
+
+    /* Mesh Gradient Background */
+    .bg-mesh {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background: radial-gradient(circle at 0% 0%, rgba(186, 158, 255, 0.15) 0%, transparent 50%),
+                  radial-gradient(circle at 100% 100%, rgba(255, 107, 154, 0.15) 0%, transparent 50%),
+                  radial-gradient(circle at 50% 50%, rgba(129, 236, 255, 0.05) 0%, transparent 50%);
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .btn-premium {
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .btn-premium::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: 0.5s;
+    }
+    
+    .btn-premium:active::before {
+      left: 100%;
+    }
+
+    .text-glow {
+      text-shadow: 0 0 20px rgba(186, 158, 255, 0.5);
+    }
+
+    .icon-glow {
+      filter: drop-shadow(0 0 15px rgba(186, 158, 255, 0.6));
+    }
+
+    /* For smooth scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Hide scrollbar */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* Custom Reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.8s ease-out;
+    }
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="font-sans antialiased">
+  <div class="bg-mesh"></div>
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full z-50 px-6 py-6 flex justify-between items-center bg-brand-dark/20 backdrop-blur-md border-b border-white/5">
+    <div class="flex items-center gap-2">
+      <!-- Logo removed per user request -->
+      <span class="font-display font-bold text-xl tracking-tight">Moodzy</span>
+    </div>
+    <div class="flex items-center gap-4">
+      <a href="https://www.instagram.com/moodzyapp/" target="_blank" class="text-white/70 hover:text-white transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="relative pt-32 pb-20 px-6 max-w-lg mx-auto overflow-hidden">
+    <!-- Hero Section -->
+    <section class="text-center mb-16 relative">
+      <!-- Glow effect -->
+      <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-64 h-64 bg-brand-purple/20 blur-[100px] rounded-full animate-pulse-slow"></div>
+      
+      <div class="reveal active">
+        <h1 class="font-display font-extrabold text-5xl mb-4 tracking-tighter text-glow">Moodzy</h1>
+        <p class="text-lg text-white/70 font-medium mb-10 leading-relaxed">
+          Hikayeni Seç, Akışa Kapıl.<br/>
+          Dikey dizi deneyiminde yeni bir dönem.
+        </p>
+      </div>
+
+      <!-- Hero Visual -->
+      <div class="reveal active mb-12">
+        <div class="relative mx-auto w-full max-w-[320px]">
+          <div class="absolute inset-0 bg-brand-purple/20 blur-[80px] rounded-full"></div>
+          <img src="./moodzy_hero_mockup_1777293915734.png" alt="Moodzy App View" class="relative z-10 w-full rounded-[3rem] shadow-[0_0_50px_rgba(186,158,255,0.3)] transition-transform hover:scale-105 duration-500" />
+        </div>
+      </div>
+
+      <!-- Main Actions (Buttons) -->
+      <div class="space-y-4 reveal active">
+        <a href="#" id="appStoreBtn" class="btn-premium flex items-center justify-center gap-4 bg-white text-brand-dark px-8 py-5 rounded-[2rem] font-bold text-lg shadow-[0_10px_30px_rgba(255,255,255,0.1)] hover:scale-[1.02] active:scale-[0.98]">
+          <!-- Apple Logo SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.05 20.28c-.96.95-2.26 1.44-3.56 1.44-1.25 0-2.31-.41-3.14-1.01-.84-.61-1.42-1.37-1.74-2.13-.34-.81-.51-1.74-.51-2.79 0-1.07.17-1.99.51-2.76.31-.72.82-1.34 1.52-1.85.68-.5 1.52-.77 2.5-.83 1.38-.08 2.72.39 3.61 1.31.36.36.63.79.83 1.27-.61.31-1.09.73-1.41 1.25-.33.53-.51 1.15-.51 1.88 0 .76.17 1.41.51 1.96.33.54.8 1.01 1.41 1.39-.17.46-.43.86-.81 1.22l-.21.19zM12.03 7.25c.13-1.17.61-2.27 1.39-3.11.77-.85 1.88-1.5 2.99-1.42.14 1.15-.36 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.14-.04-.26-.06-.39-.08z"/>
+          </svg>
+          App Store'dan İndir
+        </a>
+        
+        <a href="https://www.instagram.com/moodzyapp/" target="_blank" class="btn-premium glass flex items-center justify-center gap-4 text-white px-8 py-5 rounded-[2rem] font-bold text-lg border-white/10 hover:bg-white/10 transition-all hover:scale-[1.02] active:scale-[0.98]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          Instagram'da Keşfet
+        </a>
+      </div>
+    </section>
+
+    <!-- Trending Section -->
+    <section class="mb-20">
+      <div class="flex justify-between items-end mb-6 reveal">
+        <h2 class="font-display font-bold text-2xl">Trend Hikayeler</h2>
+        <span class="text-brand-purple text-sm font-semibold">Tümünü Gör</span>
+      </div>
+      
+      <div class="no-scrollbar flex gap-4 overflow-x-auto pb-4 px-2 -mx-2 reveal">
+        <!-- Card 1 -->
+        <div class="min-w-[160px] h-64 rounded-3xl overflow-hidden relative group">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtZGTVGQHtQTUk1U8yFHjvRdtFwigZIzKYQKFDFYjzNNbpAFx9G3_lGfroVfREJQ4wPpmBr6jFLrxk66PwBOvCh8GTc2zuaAj9Kc3_WCrtGe2bK44CoRHN8TcDa6dRJjQHXFtwT09EuROu5PXjAZIQCIqHuq8UDJjRNgbQiboJiYkfu-qr2H0cQSlram8Jads_l0OoXshwXU6VCh90Xrw5lMisQB2flmK-6vgXPIYhkNP7iGSqoKIUuM_vC09OnF3z4wRcgjwwFkd-" alt="Kırılma Noktası" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <p class="text-[10px] font-bold text-brand-cyan uppercase tracking-widest mb-1">Aksiyon</p>
+            <p class="font-bold text-sm leading-tight">Kırılma<br/>Noktası</p>
+          </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="min-w-[160px] h-64 rounded-3xl overflow-hidden relative group">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5fdq7trtHznWIHjguaeeSUWrk5ayj698o97mQXk_aDvR6cyXjMVgPDw5EfVFNhA9eQ-lV7R9wb85VrnTFOUCdwsvkHqtoWi2Xgc4d8bCXjsugfw-PXe0g2tMyYmXjPj4UFZgQxiMQohf3-MHcUkKWTmwZUAUIiU6Bk57mkSCA29AmX9bN8f0mRvwengjFOpKcRIrze1L8XAj4NN6RvUzwPJLsMLYKlJLuzDHlrj7ereAJGiWqth6EBldRpkKKWe9n7-09NWU7LICH" alt="Son Gece" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <p class="text-[10px] font-bold text-brand-pink uppercase tracking-widest mb-1">Drama</p>
+            <p class="font-bold text-sm leading-tight">Son Gece</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="min-w-[160px] h-64 rounded-3xl overflow-hidden relative group">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHFsQD6ig1YCjV3AHJgPKH8Nkr58oDdIuh_JekZVOObC7KZ1DeaSS96AblSsKWQNoZdK_qB43YbgkwDaNVAFL3vt8mqtb0XQvQc4TpLO-ofE52BgKtHJWd3pSyqEHNfRhYFdivB_-IpxQrBa8On0l2bKoiHGviPD3SRoOROI6oXpOTKapgoe28zV1tDWBxYXGfAJ9dNPP-YzZRNQFe_OGYM6fI1OrdFRNv9UAFMR5QMyh3htAEhpt2w275ixaDjZGZS9Kjy25VQB0g" alt="Şaka Gibi" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <p class="text-[10px] font-bold text-brand-purple uppercase tracking-widest mb-1">Komedi</p>
+            <p class="font-bold text-sm leading-tight">Şaka Gibi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- App Features Grid -->
+    <section class="grid grid-cols-2 gap-4 mb-20 reveal">
+      <div class="glass p-5 rounded-[2rem]">
+        <div class="w-10 h-10 rounded-2xl bg-brand-purple/20 flex items-center justify-center text-brand-purple mb-4">
+          <span class="material-symbols-rounded">timer</span>
+        </div>
+        <h3 class="font-bold mb-1">1-2 Dakika</h3>
+        <p class="text-xs text-white/50">Hızlı, yoğun bölümler.</p>
+      </div>
+      <div class="glass p-5 rounded-[2rem]">
+        <div class="w-10 h-10 rounded-2xl bg-brand-pink/20 flex items-center justify-center text-brand-pink mb-4">
+          <span class="material-symbols-rounded">smartphone</span>
+        </div>
+        <h3 class="font-bold mb-1">Dikey Kurgu</h3>
+        <p class="text-xs text-white/50">Tek el ile kolay izleme.</p>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="text-center reveal">
+      <h2 class="font-display font-bold text-3xl mb-4">Sıradaki bölüme hazır mısın?</h2>
+      <p class="text-white/60 mb-8">Moodzy ile eğlence her an cebinde.</p>
+      <a href="#" class="inline-block bg-gradient-to-r from-brand-purple to-brand-pink text-white px-10 py-4 rounded-full font-bold shadow-lg shadow-brand-purple/20 hover:scale-105 transition-transform">
+        Şimdi Keşfet
+      </a>
+    </section>
+  </main>
+
+  <footer class="px-6 py-10 text-center border-t border-white/5">
+    <div class="flex justify-center gap-6 mb-6">
+      <a href="gizlilik-politikasi.html" class="text-xs text-white/40 hover:text-white transition-colors">Gizlilik</a>
+      <a href="kullanim-kosullari.html" class="text-xs text-white/40 hover:text-white transition-colors">Şartlar</a>
+      <a href="cerez-politikasi.html" class="text-xs text-white/40 hover:text-white transition-colors">Çerezler</a>
+    </div>
+    <p class="text-[10px] text-white/20 uppercase tracking-[0.2em]">© 2024 Moodzy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Reveal Observer
+    const observerOptions = {
+      threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, observerOptions);
+    
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Handle App Store click for demo
+    document.getElementById('appStoreBtn').addEventListener('click', (e) => {
+      e.preventDefault();
+      alert("App Store linki yakında aktif olacak! Moodzy çok yakında yayında.");
+    });
+  </script>
+</body>
+</html>
