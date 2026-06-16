@@ -1,0 +1,138 @@
+KEBIJAKAN PRIVASI GLOBAL DAN PEMBERITAHUAN INFORMASI MOODZY
+
+Terakhir Diperbarui: 12 Februari 2026
+Versi:1
+
+PENDAHULUAN DAN RUANG LINGKUP
+
+Kebijakan Privasi ini berlaku untuk aplikasi Moodzy, situs web, perangkat lunak, interaksi dalam aplikasi, dan semua layanan digital terkait ("Moodzy" atau "Platform"). Moodzy dioperasikan dan disediakan oleh MOODZY YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ ("Perusahaan", "kami" atau "kita"), yang beralamat di Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez.
+
+Kami menyadari bahwa privasi dan keamanan data pribadi Anda adalah hak fundamental. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, membagikan, memproses, menyimpan, dan menghancurkan sepenuhnya informasi pribadi Anda sehubungan dengan penggunaan layanan kami. Selain itu, kebijakan ini merinci pilihan hukum yang Anda miliki terkait penggunaan, akses, koreksi, dan penghapusan data pribadi Anda.
+
+Kebijakan Privasi ini berlaku secara global dan dirancang untuk mematuhi hukum lokal di semua wilayah tempat kami menyediakan layanan (KVKK, LGPD, PDPL, dll.).
+
+JIKA ANDA TIDAK MENERIMA KEBIJAKAN PRIVASI INI, HARAP JANGAN GUNAKAN MOODZY. DENGAN TERUS MENGGUNAKAN MOODZY, ANDA MENYATAKAN BAHWA ANDA MEMAHAMI DAN MENERIMA AKTIVITAS PEMROSESAN DATA YANG DITENTUKAN DALAM KEBIJAKAN INI.
+
+Kebijakan Privasi ini mencakup topik-topik berikut:
+
+1. Informasi Apa yang Kami Kumpulkan?
+
+2. Bagaimana Kami Menggunakan Informasi Anda
+
+3. Bagaimana Kami Membagikan Informasi Anda
+
+4. Bagaimana Kami Menyimpan dan Melindungi Informasi Anda
+
+5. Apa Hak dan Pilihan Anda?
+
+6. Bagaimana Kami Memproses Informasi Anak di Bawah Umur?
+
+7. Transfer Internasional
+
+8. Pembaruan Kebijakan Privasi
+
+9. Bagaimana Anda Dapat Menghubungi Kami?
+
+10. Bahasa
+
+11. Hukum yang Berlaku dan Penyelesaian Sengketa
+
+12. INFORMASI APA YANG KAMI KUMPULKAN?
+
+Moodzy hanya mengumpulkan data yang diperlukan untuk memberikan pengalaman yang lancar kepada penggunanya. Bergantung pada metode pendaftaran, data yang dikumpulkan adalah sebagai berikut:
+
+1.1. Informasi Pembuatan Akun dan Pendaftaran:
+
+Pendaftaran Manual: Ketika pengguna memilih untuk mendaftar secara langsung melalui e-mail, kami mengumpulkan Nama, Nama Belakang, Alamat E-mail, dan Kata Sandi. Kata sandi Anda disimpan dalam bentuk terenkripsi menggunakan algoritma hashing canggih (misalnya bcrypt/scrypt); tidak ada siapa pun, termasuk karyawan kami, yang dapat mengakses kata sandi mentah Anda.
+
+Login Pihak Ketiga (Apple & Google): Ketika Anda memilih untuk masuk ke Platform kami menggunakan Apple ID atau Akun Google, kami mengumpulkan informasi yang ditransfer kepada kami oleh organisasi terkait; pengenal pengguna unik (Token), nama-nama belakang, dan alamat e-mail terverifikasi. Ketika Anda mendaftar dengan metode ini, pembagian data terjadi sejauh yang Anda izinkan dalam pengaturan privasi pihak ketiga.
+
+1.2. Informasi yang Dikumpulkan Secara Otomatis:
+
+Pengenal Perangkat: Alamat IP, jenis perangkat (iPhone/Android), versi sistem operasi, jenis browser, dan pengenal iklan (IDFA/GAID).
+
+Data Penggunaan: Serial pendek yang ditonton, tindakan menambahkan ke favorit, kueri pencarian dalam aplikasi, dan durasi konsumsi konten.
+
+2. BAGAIMANA KAMI MENGGUNAKAN INFORMASI ANDA
+
+Data yang dikumpulkan diproses berdasarkan dasar hukum dan tujuan berikut:
+
+Pelaksanaan Kontrak: Pembuatan akun pengguna, penyediaan akses ke konten, dan pengaitan produk virtual yang dibeli (token/coin) ke akun.
+
+Personalisasi Berbasis Kecerdasan Buatan: Merekomendasikan konten yang paling sesuai untuk Anda melalui analisis kebiasaan menonton Anda.
+
+Pengembangan Platform: Deteksi kesalahan teknis, pengujian A/B, dan optimasi antarmuka pengguna.
+
+Keamanan dan Kepatuhan Hukum: Pencegahan aktivitas penipuan dan pencegahan penyalahgunaan platform.
+
+Pemasaran: Jika Anda memberikan persetujuan, pengiriman notifikasi push dan e-mail mengenai konten dan promosi yang mungkin menarik bagi Anda.
+
+3. BAGAIMANA KAMI MEMBAGIKAN INFORMASI ANDA
+
+Moodzy tidak pernah menjual data pengguna secara langsung. Pembagian hanya terbatas pada situasi berikut:
+
+Penyedia Layanan: Mitra bisnis yang menyediakan layanan penyimpanan data (AWS/Google Cloud), sistem dukungan pelanggan, dan analitik data (AppsFlyer/Firebase).
+
+Mitra Periklanan: Membagikan pengenal iklan Anda (IDFA/AAID) dengan jaringan iklan dalam bentuk anonim untuk tujuan penargetan iklan.
+
+Perusahaan Grup: Afiliasi yang terkait dengan Moodzy untuk efisiensi operasional.
+
+Kewajiban Hukum: Ketika diminta oleh otoritas yudisial atau administratif yang berwenang sesuai dengan hukum yang berlaku (KVKK, LGPD, PDPL, dll.).
+
+4. BAGAIMANA KAMI MENYIMPAN DAN MELINDUNGI INFORMASI ANDA
+
+4.1. Keamanan: Data Anda dilindungi dengan protokol enkripsi AES-256 dan dipantau terhadap akses tidak sah melalui sistem Autentikasi Multi-Faktor (MFA).
+
+4.2. Komitmen Penghapusan Lengkap dalam 24 Jam:
+
+Moodzy menghormati "Hak untuk Dilupakan" penggunanya pada tingkat tertinggi. Ketika pengguna mengajukan permintaan "Hapus Akun Saya" melalui pengaturan aplikasi atau saluran dukungan;
+
+Data identitas, kontak, riwayat tontonan, dan catatan keuangan pengguna (kecuali catatan faktur yang tunduk pada kewajiban penyimpanan hukum) dihapus secara permanen dan tidak dapat dipulihkan dari server, cadangan, dan basis data kami dalam waktu 24 jam.
+
+Setelah proses ini selesai, seluruh hubungan digital pengguna dengan platform akan diputus.
+
+5. APA HAK DAN PILIHAN ANDA?
+
+Di negara mana pun Anda berada, Anda memiliki hak-hak berikut:
+
+Akses dan Mendapatkan Informasi: Meminta salinan data yang disimpan tentang Anda.
+
+Koreksi: Meminta pembaruan data Anda yang salah atau tidak lengkap.
+
+Keberatan: Menolak pemrosesan data Anda untuk tujuan pemasaran.
+
+Portabilitas Data: Meminta data Anda dalam format yang terstruktur dan umum digunakan.
+
+6. BAGAIMANA KAMI MEMPROSES INFORMASI ANAK DI BAWAH UMUR?
+
+Moodzy tidak ditujukan untuk anak-anak di bawah usia 13 tahun atau di bawah usia minimum ("Usia Minimum") yang ditentukan dalam hukum dan peraturan yurisdiksi terkait Anda. Oleh karena itu, kami tidak secara sadar mengumpulkan informasi pribadi dari siapa pun di bawah Usia Minimum. Jika Anda berada di bawah Usia Minimum, harap jangan gunakan Moodzy dan jangan kirimkan informasi pribadi Anda kepada kami. Jika Anda yakin bahwa kami mungkin memiliki informasi apa pun tentang anak-anak di bawah Usia Minimum, Anda dapat menghubungi kami menggunakan informasi kontak yang diberikan dalam Kebijakan Privasi ini. Jika kami mengetahui bahwa kami telah mengumpulkan informasi pribadi dari anak-anak di bawah Usia Minimum, kami akan mengambil langkah-langkah yang diperlukan untuk segera menghapus informasi tersebut dan menutup akun terkait.
+
+Jika Anda telah mencapai usia minimum tetapi masih berada di bawah usia dewasa yang ditentukan dalam hukum dan peraturan yang berlaku, Anda hanya dapat menggunakan Moodzy melalui perwakilan orang tua atau wali hukum Anda. Anda harus membaca Kebijakan Privasi ini di bawah pengawasan dan bimbingan orang tua atau wali hukum Anda dan mengirimkan informasi pribadi terkait Anda hanya setelah orang tua atau wali hukum Anda menyetujui Kebijakan Privasi ini. Anda dan orang tua atau wali hukum Anda dianggap telah menerima Kebijakan Privasi ini.
+
+7. TRANSFER INTERNASIONAL
+
+Moodzy adalah layanan global. Data yang dikumpulkan dapat ditransfer ke server di luar Türkiye (umumnya di UE atau AS). Transfer ini diamankan melalui "Klausul Kontrak Standar" dan mekanisme transfer aman (SCCs) yang ditentukan oleh hukum lokal.
+
+8. PEMBARUAN KEBIJAKAN PRIVASI
+
+Kebijakan ini dapat diperbarui sesuai dengan perubahan hukum atau fitur baru. Perubahan penting akan diberitahukan kepada pengguna melalui notifikasi dalam aplikasi atau e-mail. Melanjutkan penggunaan berarti Anda menerima kebijakan yang diperbarui.
+
+9. BAGAIMANA ANDA DAPAT MENGHUBUNGI KAMI?
+
+Untuk pertanyaan, keluhan, atau permintaan penghapusan data apa pun terkait privasi:
+
+E-mail: [info@moodzyapp.com](mailto:info@moodzyapp.com)
+
+Alamat: Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez
+
+10. BAHASA
+
+Kebijakan Privasi ini disiapkan dalam bahasa Turki. Jika terjadi konflik antara terjemahan, teks bahasa Turki akan dianggap sebagai rujukan untuk interpretasi hukum.
+
+11. HUKUM YANG BERLAKU DAN PENYELESAIAN SENGKETA
+
+Kecuali diwajibkan lain oleh hukum lokal, kebijakan ini tunduk pada hukum Türkiye. Dalam sengketa, pengadilan dan dewan arbitrase negara terkait akan berwenang.
+
+PERSETUJUAN
+
+Dengan menggunakan aplikasi Moodzy, Anda menerima bahwa Anda berusia di atas 13 tahun dan bahwa Anda telah membaca serta memahami ketentuan yang terdapat dalam Kebijakan Privasi ini.

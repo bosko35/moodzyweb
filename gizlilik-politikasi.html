@@ -34,148 +34,108 @@
   <header class="border-b border-white/10 bg-[#0e0e12]/70 px-4 py-4 backdrop-blur-2xl sm:px-6 lg:px-8">
     <div class="mx-auto flex max-w-7xl items-center justify-between">
       <a class="font-headline text-2xl font-bold tracking-tight" href="index.html">Moodzy</a>
-      <a class="text-sm font-medium text-white/70 transition hover:text-white" href="index.html">Geri Dön</a>
+      <div class="flex items-center gap-4">
+        <select id="lang-selector" class="rounded-xl border-white/10 bg-white/5 px-3 py-1.5 text-sm text-white/80 focus:border-primary focus:ring-primary cursor-pointer hover:bg-white/10 transition-colors">
+          <option class="bg-[#14141c] text-white" value="tr">Türkçe</option>
+          <option class="bg-[#14141c] text-white" value="en">English</option>
+          <option class="bg-[#14141c] text-white" value="es">Español</option>
+          <option class="bg-[#14141c] text-white" value="pt">Português</option>
+          <option class="bg-[#14141c] text-white" value="fr">Français</option>
+          <option class="bg-[#14141c] text-white" value="id">Bahasa Indonesia</option>
+          <option class="bg-[#14141c] text-white" value="fil">Filipino</option>
+          <option class="bg-[#14141c] text-white" value="th">ไทย</option>
+          <option class="bg-[#14141c] text-white" value="hi">हिन्दी</option>
+          <option class="bg-[#14141c] text-white" value="ar">العربية</option>
+        </select>
+        <a class="text-sm font-medium text-white/70 transition hover:text-white" href="index.html" id="back-btn">Geri Dön</a>
+      </div>
     </div>
   </header>
   <main class="px-4 py-16 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-3xl glass-panel rounded-[2rem] p-6 sm:p-12">
-      <div class="space-y-6 text-sm leading-relaxed text-white/80 whitespace-pre-wrap">MOODZY GLOBAL GİZLİLİK POLİTİKASI VE AYDINLATMA METNİ
-Son Güncelleme: 12 Şubat 2026 Sürüm:1
-
-
-GİRİŞ VE KAPSAM Bu Gizlilik Politikası, Moodzy uygulaması, web sitesi, yazılımı, uygulama içi etkileşimleri ve ilgili tüm dijital hizmetler ("Moodzy" veya "Platform") için geçerlidir. Moodzy, Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez adresinde mukim, MOODZY YAZILIM SAYAYİ VE TİCARET ANONİM ŞİRKETİ ("Şirket", "biz" veya "bize") tarafından işletilmekte ve sağlanmaktadır.
-
-Gizliliğinizin ve kişisel verilerinizin güvenliğinin temel bir hak olduğunun bilincindeyiz. Bu Gizlilik Politikası, hizmetlerimizi kullanımınızla bağlantılı olarak kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı, paylaştığımızı, işlediğimizi, sakladığımızı ve tamamen imha ettiğimizi açıklamaktadır. Ayrıca kişisel verilerinizin kullanımı, erişimi, düzeltilmesi ve silinmesiyle ilgili sahip olduğunuz yasal seçenekleri detaylandırmaktadır.
-
-Bu Gizlilik Politikası, küresel ölçekte geçerli olup; hizmet sunduğumuz tüm bölgelerdeki yerel yasalara (KVKK, LGPD, PDPL vb.) uyum sağlamak üzere tasarlanmıştır.
-
-BU GİZLİLİK POLİTİKASINI KABUL ETMİYORSANIZ , LÜTFEN MOODZY'İ KULLANMAYIN. MOODZY'İ KULLANMAYA DEVAM EDEREK, BU POLİTİKADA BELİRTİLEN VERİ İŞLEME FAALİYETLERİNİ ANLADIĞINIZI VE KABUL ETTİĞİNİZİ BEYAN ETMİŞ OLURSUNUZ.
-Bu Gizlilik Politikası aşağıdaki konuları kapsamaktadır:
-
-1. Hangi Bilgileri Topluyoruz?
-
-2. Bilgilerinizi Nasıl Kullanıyoruz
-
-3. Bilgilerinizi Nasıl Paylaşıyoruz
-
-4. Bilgilerinizi Nasıl Saklıyor ve Koruyoruz
-
-5. Haklarınız ve Seçenekleriniz Nelerdir?
-
-6. Küçüklerin Bilgilerini Nasıl İşliyoruz?
-
-7. Uluslararası Transferler
-
-8. Gizlilik Politikası Güncellemeleri
-
-9. Bize Nasıl Ulaşabilirsiniz?
-
-10. Dil
-
-11. Uygulanacak Hukuk ve Uyuşmazlık Çözümü
-
-
-
-
-1. HANGİ BİLGİLERİ TOPLUYORUZ?
-
-Moodzy, kullanıcılarına kesintisiz bir deneyim sunmak adına yalnızca gerekli olan verileri toplar. Kayıt yöntemine bağlı olarak toplanan veriler şunlardır:
-
-1.1. Hesap Oluşturma ve Kayıt Bilgileri:
-
-Manuel Kayıt: Kullanıcı doğrudan e-posta yoluyla kayıt olmayı seçtiğinde; Ad, Soyad, E-posta Adresi ve Şifre bilgilerini topluyoruz. Şifreleriniz, gelişmiş hashing algoritmaları (örn. bcrypt/scrypt) ile şifrelenerek saklanır; çalışanlarımız dahil hiç kimse ham şifrenize erişemez.
-
-Üçüncü Taraf Girişleri (Apple & Google): Platformumuza Apple ID veya Google Hesabı ile giriş yapmayı seçtiğinizde, ilgili kuruluşlar tarafından tarafımıza aktarılan; benzersiz kullanıcı kimliği (Token), ad-soyad ve doğrulanmış e-posta adresi bilgilerinizi topluyoruz. Bu yöntemle kayıt olduğunuzda, üçüncü tarafın gizlilik ayarlarında izin verdiğiniz ölçüde veri paylaşımı gerçekleşir.
-
-
-1.2. Otomatik Olarak Toplanan Bilgiler:
-
-Cihaz Tanımlayıcıları: IP adresi, cihaz türü (iPhone/Android), işletim sistemi sürümü, tarayıcı tipi ve reklam kimlikleri (IDFA/GAID).
-
-Kullanım Verileri: İzlenen kısa diziler, favorilere ekleme işlemleri, uygulama içi arama sorguları ve içerik tüketim süresi.
-
-2. BİLGİLERİNİZİ NASIL KULLANIYORUZ?
-
-Toplanan veriler, aşağıdaki hukuki dayanaklar ve amaçlar çerçevesinde işlenir:
-
-Sözleşmenin İfası: Kullanıcı hesabının oluşturulması, içeriklere erişim sağlanması ve satın alınan sanal ürünlerin (jeton/coin) hesaba tanımlanması.
-
-Yapay Zeka Destekli Kişiselleştirme: İzleme alışkanlıklarınızın analizi yoluyla size en uygun içeriklerin önerilmesi.
-
-Platform Geliştirme: Teknik hataların tespiti, A/B testleri ve kullanıcı arayüzü optimizasyonları.
-
-Güvenlik ve Hukuki Uyum: Dolandırıcılık faaliyetlerinin önlenmesi, platformun kötüye kullanımının engellenmesi.
-
-Pazarlama: Onay vermeniz halinde, ilginizi çekebilecek içerikler ve promosyonlar hakkında push bildirimleri ve e-posta gönderimi.
-
-3. BİLGİLERİNİZİ NASIL PAYLAŞIYORUZ?
-
-Moodzy, kullanıcı verilerini asla doğrudan satmaz. Paylaşımlar yalnızca aşağıdaki durumlarla sınırlıdır:
-
-Hizmet Sağlayıcılar: Veri depolama (AWS/Google Cloud), müşteri destek sistemleri ve veri analitiği (AppsFlyer/Firebase) hizmeti veren iş ortakları.
-
-Reklam Ortakları: Reklam hedeflemesi için reklam kimliklerinizin (IDFA/AAID) anonimleştirilmiş şekilde reklam ağlarıyla paylaşılması.
-
-Grup Şirketleri: Operasyonel verimlilik adına Moodzy’nin bağlı bulunduğu iştirakler.
-
-Yasal Zorunluluklar: Yetkili adli veya idari makamların, geçerli yasalar çerçevesinde (KVKK, LGPD, PDPL vb.) talep ettiği durumlarda.
-
-4. BİLGİLERİNİZİ NASIL SAKLIYOR VE KORUYORUZ?
-
-4.1. Güvenlik: Verileriniz, AES-256 şifreleme protokolü ile korunmakta ve yetkisiz erişime karşı Çok Faktörlü Kimlik Doğrulama (MFA) sistemleri ile izlenmektedir.
-
-4.2. 24 Saat İçinde Tam Silme Taahhüdü: Moodzy, kullanıcılarının "Unutulma Hakkı"na en üst düzeyde saygı duyar. Kullanıcı, uygulama ayarları üzerinden veya destek kanalıyla "Hesabımı Sil" talebinde bulunduğunda;
-
-Kullanıcının kimlik, iletişim, izleme geçmişi ve finansal kayıtları (yasal saklama zorunluluğu olan fatura kayıtları hariç) 24 saat içerisinde sunucularımızdan, yedeklerimizden ve veri tabanlarımızdan geri döndürülemez şekilde silinir.
-
-Bu işlem tamamlandığında, kullanıcının platformla tüm dijital bağı kesilir.
-
-
-5. HAKLARINIZ VE SEÇENEKLERİNİZ NELERDİR?
-
-Hangi ülkede olursanız olun, aşağıdaki haklara sahipsiniz:
-
-Erişim ve Bilgi Alma: Hakkınızda tutulan verilerin kopyasını isteme.
-
-Düzeltme: Hatalı veya eksik verilerinizin güncellenmesini isteme.
-
-İtiraz: Verilerinizin pazarlama amaçlı işlenmesine karşı çıkma.
-
-Veri Taşınabilirliği: Verilerinizi yapılandırılmış, yaygın olarak kullanılan bir formatta talep etme.
-
-6. KÜÇÜKLERİN BİLGİLERİNİ NASIL İŞLİYORUZ?
-
- 16 yaşın altındaki veya ilgili yargı bölgenizin kanun ve yönetmeliklerinde belirtilen minimum yaşın ("Minimum Yaş") altındaki çocuklara yönelik değildir . Bu nedenle, Minimum Yaşın altındaki hiç kimsenin kişisel bilgilerini bilerek toplamıyoruz. Minimum Yaşın altındaysanız, lütfen DramaBox'ı kullanmayın ve kişisel bilgilerinizi bize göndermeyin. Minimum Yaşın altındaki çocuklar hakkında herhangi bir bilgimiz olabileceğini düşünüyorsanız, bu Gizlilik Politikası'nda verilen iletişim bilgilerini kullanarak bizimle iletişime geçebilirsiniz. Minimum Yaşın altındaki çocuklardan kişisel bilgi topladığımızı öğrenirsek, bu bilgileri derhal silmek ve ilgili hesabı kapatmak için gerekli adımları atacağız.
-
-Eğer asgari yaşa ulaşmış ancak ilgili yasa ve yönetmeliklerde tanımlanan reşitlik yaşının altında iseniz, Moodzy'i yalnızca ebeveyninizin veya yasal vasinizin temsilciliği aracılığıyla kullanabilirsiniz. Bu Gizlilik Politikasını ebeveyninizin veya yasal vasinizin gözetimi ve rehberliği altında okumalı ve ilgili kişisel bilgilerinizi ebeveyninizin veya yasal vasinizin bu Gizlilik Politikasına onay vermesinden sonra göndermelisiniz. Siz ve ebeveyniniz veya yasal vasiniz bu Gizlilik Politikasını kabul etmiş sayılırsınız.
-
-7. ULUSLARARASI TRANSFERLER
-
-Moodzy global bir hizmettir. Toplanan veriler, Türkiye  dışındaki sunuculara (genellikle AB veya ABD) aktarılabilir. Bu transferler, yerel yasaların öngördüğü "Standart Sözleşme Maddeleri" ve güvenli aktarım mekanizmaları (SCCs) ile güvence altına alınır.
-
-8. GİZLİLİK POLİTİKASI GÜNCELLEMELERİ
-
-İşbu politika, yasal değişiklikler veya yeni özellikler doğrultusunda güncellenebilir. Önemli değişiklikler kullanıcıya uygulama içi bildirim veya e-posta yoluyla bildirilir. Kullanıma devam etmeniz, güncel politikayı kabul ettiğiniz anlamına gelir.
-
-9. BİZE NASIL ULAŞABİLİRSİNİZ?
-
-Gizlilikle ilgili her türlü soru, şikayet veya veri silme talebi için:
-
-E-posta: info@moodzyapp.com
-
-
-Adres:  Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez
-
-10. DİL
-
-İşbu Gizlilik Politikası; Türkçe dilinde hazırlanmıştır. Çeviriler arasında ihtilaf olması durumunda Türkçe metin, yasal yorumlama açısından referans kabul edilecektir.
-
-11. UYGULANACAK HUKUK VE UYUŞMAZLIK ÇÖZÜMÜ
-Aksi yerel yasalarca emredilmedikçe, işbu politika Türkiye yasalarına tabidir. Uyuşmazlıklarda ilgili ülkenin mahkemeleri ve tahkim kurulları yetkilidir.
-
-ONAY
-Moodzy uygulamasını kullanarak, 13 yaşından büyük olduğunuzu ve bu Gizlilik Politikası’nda yer alan şartları okuyup anladığınızı kabul etmiş olursunuz.</div>
+      <div class="space-y-6 text-sm leading-relaxed text-white/80 whitespace-pre-wrap" id="privacy-content">Yükleniyor... / Loading...</div>
     </div>
   </main>
+  <script src="policy-translations.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const langSelector = document.getElementById("lang-selector");
+      const contentContainer = document.getElementById("privacy-content");
+      const backBtn = document.getElementById("back-btn");
+      const pageTitle = document.querySelector("title");
+
+      const uiTranslations = {
+        tr: { back: "Geri Dön", title: "Gizlilik Sözleşmesi | Moodzy" },
+        en: { back: "Go Back", title: "Privacy Policy | Moodzy" },
+        es: { back: "Volver", title: "Política de Privacidad | Moodzy" },
+        pt: { back: "Voltar", title: "Política de Privacidade | Moodzy" },
+        fr: { back: "Retour", title: "Politique de Confidentialité | Moodzy" },
+        id: { back: "Kembali", title: "Kebijakan Privasi | Moodzy" },
+        fil: { back: "Bumalik", title: "Patakaran sa Privacy | Moodzy" },
+        th: { back: "ย้อนกลับ", title: "นโยบายความเป็นส่วนตัว | Moodzy" },
+        hi: { back: "वापस जाएं", title: "गोपनीयता नीति | Moodzy" },
+        ar: { back: "العودة", title: "سياسة الخصوصية | Moodzy" }
+      };
+
+      const supportedLangs = ["tr", "en", "es", "pt", "fr", "id", "fil", "th", "hi", "ar"];
+
+      function getLanguage() {
+        const urlParams = new URLSearchParams(window.location.search);
+        let lang = urlParams.get("lang");
+        if (lang && supportedLangs.includes(lang.toLowerCase())) {
+          return lang.toLowerCase();
+        }
+
+        lang = localStorage.getItem("preferred_lang");
+        if (lang && supportedLangs.includes(lang.toLowerCase())) {
+          return lang.toLowerCase();
+        }
+
+        const browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
+        for (let bLang of browserLangs) {
+          bLang = bLang.split("-")[0].toLowerCase();
+          if (supportedLangs.includes(bLang)) {
+            return bLang;
+          }
+        }
+
+        return "tr";
+      }
+
+      function updateLanguage(lang) {
+        localStorage.setItem("preferred_lang", lang);
+        langSelector.value = lang;
+
+        if (window.policyTranslations && window.policyTranslations.privacy && window.policyTranslations.privacy[lang]) {
+          contentContainer.textContent = window.policyTranslations.privacy[lang];
+        } else {
+          contentContainer.textContent = "Yükleniyor... / Loading...";
+        }
+
+        const ui = uiTranslations[lang] || uiTranslations.tr;
+        if (backBtn) backBtn.textContent = ui.back;
+        if (pageTitle) pageTitle.textContent = ui.title;
+
+        if (lang === "ar") {
+          document.documentElement.dir = "rtl";
+          document.documentElement.lang = "ar";
+          contentContainer.classList.add("text-right");
+          contentContainer.classList.remove("text-left");
+        } else {
+          document.documentElement.dir = "ltr";
+          document.documentElement.lang = lang;
+          contentContainer.classList.remove("text-right");
+          contentContainer.classList.add("text-left");
+        }
+      }
+
+      langSelector.addEventListener("change", (e) => {
+        updateLanguage(e.target.value);
+      });
+
+      const initialLang = getLanguage();
+      updateLanguage(initialLang);
+    });
+  </script>
 </body>
 </html>

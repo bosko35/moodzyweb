@@ -1,0 +1,134 @@
+MOODZY GLOBAL PRIVACY POLICY AND DISCLOSURE NOTICE
+Last Updated: February 12, 2026 Version:1
+
+INTRODUCTION AND SCOPE
+
+This Privacy Policy applies to the Moodzy application, website, software, in-app interactions and all related digital services ("Moodzy" or the "Platform"). Moodzy is operated and provided by MOODZY YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ ("Company", "we" or "us"), located at Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez.
+
+We recognize that the security of your privacy and personal data is a fundamental right. This Privacy Policy explains how we collect, use, share, process, store and permanently destroy your personal information in connection with your use of our services. It also details the legal choices you have regarding the use, access, correction and deletion of your personal data.
+
+This Privacy Policy is globally applicable and has been designed to comply with local laws in all regions where we provide services (KVKK, LGPD, PDPL, etc.).
+
+IF YOU DO NOT ACCEPT THIS PRIVACY POLICY, PLEASE DO NOT USE MOODZY. BY CONTINUING TO USE MOODZY, YOU DECLARE THAT YOU UNDERSTAND AND ACCEPT THE DATA PROCESSING ACTIVITIES SPECIFIED IN THIS POLICY.
+
+This Privacy Policy covers the following topics:
+
+1. What Information Do We Collect?
+
+2. How Do We Use Your Information?
+
+3. How Do We Share Your Information?
+
+4. How Do We Store and Protect Your Information?
+
+5. What Are Your Rights and Choices?
+
+6. How Do We Process Children's Information?
+
+7. International Transfers
+
+8. Privacy Policy Updates
+
+9. How Can You Contact Us?
+
+10. Language
+
+11. Governing Law and Dispute Resolution
+
+12. WHAT INFORMATION DO WE COLLECT?
+
+In order to provide its users with a seamless experience, Moodzy collects only the data that is necessary. Depending on the registration method, the following data is collected:
+
+1.1. Account Creation and Registration Information:
+
+Manual Registration: When the user chooses to register directly via e-mail, we collect Name, Surname, E-mail Address and Password information. Your passwords are stored encrypted using advanced hashing algorithms (e.g., bcrypt/scrypt); no one, including our employees, can access your raw password.
+
+Third-Party Logins (Apple & Google): When you choose to log in to our Platform using your Apple ID or Google Account, we collect the unique user identifier (Token), name-surname and verified e-mail address information provided to us by the relevant organizations. When you register using this method, data sharing takes place to the extent permitted by the privacy settings of the third party.
+
+1.2. Information Collected Automatically:
+
+Device Identifiers: IP address, device type (iPhone/Android), operating system version, browser type and advertising identifiers (IDFA/GAID).
+
+Usage Data: Short dramas watched, favorite actions, in-app search queries and content consumption duration.
+
+2. HOW DO WE USE YOUR INFORMATION?
+
+The collected data is processed within the framework of the following legal bases and purposes:
+
+Performance of the Contract: Creation of the user account, providing access to content and crediting purchased virtual products (tokens/coins) to the account.
+
+AI-Powered Personalization: Recommending the most suitable content to you through analysis of your viewing habits.
+
+Platform Improvement: Detection of technical errors, A/B tests and user interface optimization.
+
+Security and Legal Compliance: Prevention of fraudulent activities and misuse of the platform.
+
+Marketing: If you provide consent, sending push notifications and e-mails regarding content and promotions that may interest you.
+
+3. HOW DO WE SHARE YOUR INFORMATION?
+
+Moodzy never directly sells user data. Sharing is limited only to the following situations:
+
+Service Providers: Business partners providing data storage (AWS/Google Cloud), customer support systems and data analytics services (AppsFlyer/Firebase).
+
+Advertising Partners: Sharing your advertising identifiers (IDFA/AAID) with advertising networks in anonymized form for advertising targeting purposes.
+
+Group Companies: Affiliates of Moodzy for operational efficiency.
+
+Legal Obligations: When requested by authorized judicial or administrative authorities in accordance with applicable laws (KVKK, LGPD, PDPL, etc.).
+
+4. HOW DO WE STORE AND PROTECT YOUR INFORMATION?
+
+4.1. Security: Your data is protected by the AES-256 encryption protocol and monitored against unauthorized access with Multi-Factor Authentication (MFA) systems.
+
+4.2. Commitment to Complete Deletion Within 24 Hours: Moodzy respects its users' "Right to Be Forgotten" at the highest level. When a user submits a "Delete My Account" request through the application settings or support channels;
+
+The user's identity, contact information, viewing history and financial records (except invoice records subject to legal retention obligations) are irreversibly deleted from our servers, backups and databases within 24 hours.
+
+Once this process is completed, all digital ties between the user and the platform are terminated.
+
+5. WHAT ARE YOUR RIGHTS AND CHOICES?
+
+Regardless of the country you are in, you have the following rights:
+
+Access and Information: Request a copy of the data held about you.
+
+Correction: Request the update of inaccurate or incomplete data.
+
+Objection: Object to the processing of your data for marketing purposes.
+
+Data Portability: Request your data in a structured and commonly used format.
+
+6. HOW DO WE PROCESS CHILDREN'S INFORMATION?
+
+Moodzy is not directed to children under the age of 13 or under the minimum age ("Minimum Age") specified in the laws and regulations of your relevant jurisdiction. Therefore, we do not knowingly collect personal information from anyone under the Minimum Age. If you are under the Minimum Age, please do not use Moodzy and do not send us your personal information. If you believe that we may have information about children under the Minimum Age, you may contact us using the contact information provided in this Privacy Policy. If we learn that we have collected personal information from children under the Minimum Age, we will take the necessary steps to immediately delete such information and close the relevant account.
+
+If you have reached the Minimum Age but are under the age of majority as defined by applicable laws and regulations, you may use Moodzy only through the representation of your parent or legal guardian. You should read this Privacy Policy under the supervision and guidance of your parent or legal guardian and submit your relevant personal information only after your parent or legal guardian has approved this Privacy Policy. You and your parent or legal guardian shall be deemed to have accepted this Privacy Policy.
+
+7. INTERNATIONAL TRANSFERS
+
+Moodzy is a global service. Collected data may be transferred to servers located outside Türkiye (generally in the EU or the USA). Such transfers are secured through "Standard Contractual Clauses" and secure transfer mechanisms (SCCs) required by local laws.
+
+8. PRIVACY POLICY UPDATES
+
+This policy may be updated in line with legal changes or new features. Significant changes will be notified to users through in-app notifications or e-mail. Your continued use constitutes acceptance of the updated policy.
+
+9. HOW CAN YOU CONTACT US?
+
+For any privacy-related questions, complaints or data deletion requests:
+
+E-mail: info@moodzyapp.com
+
+Address: Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez
+
+10. LANGUAGE
+
+This Privacy Policy has been prepared in Turkish. In the event of any conflict between translations, the Turkish text shall prevail for legal interpretation purposes.
+
+11. GOVERNING LAW AND DISPUTE RESOLUTION
+
+Unless otherwise required by local laws, this policy shall be governed by the laws of Türkiye. In disputes, the courts and arbitration boards of the relevant country shall have jurisdiction.
+
+CONSENT
+
+By using the Moodzy application, you acknowledge that you are over the age of 13 and that you have read and understood the terms contained in this Privacy Policy.

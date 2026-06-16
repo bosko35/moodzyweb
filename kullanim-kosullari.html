@@ -34,96 +34,108 @@
   <header class="border-b border-white/10 bg-[#0e0e12]/70 px-4 py-4 backdrop-blur-2xl sm:px-6 lg:px-8">
     <div class="mx-auto flex max-w-7xl items-center justify-between">
       <a class="font-headline text-2xl font-bold tracking-tight" href="index.html">Moodzy</a>
-      <a class="text-sm font-medium text-white/70 transition hover:text-white" href="index.html">Geri Dön</a>
+      <div class="flex items-center gap-4">
+        <select id="lang-selector" class="rounded-xl border-white/10 bg-white/5 px-3 py-1.5 text-sm text-white/80 focus:border-primary focus:ring-primary cursor-pointer hover:bg-white/10 transition-colors">
+          <option class="bg-[#14141c] text-white" value="tr">Türkçe</option>
+          <option class="bg-[#14141c] text-white" value="en">English</option>
+          <option class="bg-[#14141c] text-white" value="es">Español</option>
+          <option class="bg-[#14141c] text-white" value="pt">Português</option>
+          <option class="bg-[#14141c] text-white" value="fr">Français</option>
+          <option class="bg-[#14141c] text-white" value="id">Bahasa Indonesia</option>
+          <option class="bg-[#14141c] text-white" value="fil">Filipino</option>
+          <option class="bg-[#14141c] text-white" value="th">ไทย</option>
+          <option class="bg-[#14141c] text-white" value="hi">हिन्दी</option>
+          <option class="bg-[#14141c] text-white" value="ar">العربية</option>
+        </select>
+        <a class="text-sm font-medium text-white/70 transition hover:text-white" href="index.html" id="back-btn">Geri Dön</a>
+      </div>
     </div>
   </header>
   <main class="px-4 py-16 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-3xl glass-panel rounded-[2rem] p-6 sm:p-12">
-      <div class="space-y-6 text-sm leading-relaxed text-white/80 whitespace-pre-wrap">MOODZY GLOBAL HİZMET KULLANIM ŞARTLARI VE SÖZLEŞMESİ
-Son Güncelleme Tarihi: 12 Şubat 2026 Sürüm No: 2026/V.4.0
-
-GİRİŞ VE SÖZLEŞMENİN KABULÜ
-İşbu Kullanım Şartları ("Şartlar"), merkezi Türkiye'de bulunan ve kayıtlı adresi Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez olan MOODZY YAZILIM SAYAYİ VE TİCARET ANONİM ŞİRKETİ ("Moodzy", "Şirket", "biz" veya "bize") tarafından işletilen Moodzy platformuna, mobil uygulamalarına (iOS ve Android), web sitesine ve tüm ilgili dijital içerik hizmetlerine ("Hizmetler") erişiminizi ve kullanımınızı düzenler.
-
-ÖNEMLİ HUKUKİ UYARI: PLATFORMA ERİŞEREK, KAYIT OLARAK VEYA İÇERİK İZLEYEREK, BU ŞARTLARI KOŞULSUZ OLARAK KABUL ETTİĞİNİZİ VE BUNLARA TAMAMEN UYMAYI TAAHHÜT ETTİĞİNİZİ ONAYLARSINIZ. BU ŞARTLAR SİZİNLE MOODZY ARASINDA YASAL OLARAK BAĞLAYICI BİR ANLAŞMA OLUŞTURUR. EĞER BU ŞARTLARI KABUL ETMİYORSANIZ, LÜTFEN PLATFORMU KULLANMAYIN VE TÜM ERİŞİMİNİZİ DERHAL SONLANDIRIN.
-
-1. UYGUNLUK VE YAŞ SINIRLAMASI (16+)
-Moodzy, 16+ yönelik kısa dizi ve eğlence içerikleri sunan bir platformdur.
-
-Minimum Yaş: Platformu kullanmak için en az 1 (on altı) yaşında olmalısınız. Bu Şartları kabul ederek, bize en az 16 yaşında olduğunuzu, daha önce Hizmetten uzaklaştırılmadığınızı ve kaydınızın tüm geçerli yasa ve yönetmeliklere (Türkiye, Brezilya, Meksika, Suudi Arabistan ve Mısır dahil) uygun olduğunu beyan ve garanti edersiniz.
-
-Doğrulama: Moodzy, şüpheli durumlarda yaş doğrulama kanıtı talep etme hakkını saklı tutar. 13 yaş altındaki bir bireyin platformu kullandığının tespiti halinde, hesap derhal kapatılır ve verileri imha edilir.
-
-2. KAYIT VE HESAP GÜVENLİĞİ
-Hizmetin belirli özelliklerine (satın alma, favoriler, yorumlar) erişmek için bir hesap ("Hesap") oluşturmanız gerekmektedir.
-
-2.1. Kayıt Kanalları: * Manuel Kayıt: İsim, Soyisim, E-posta ve Şifre aracılığıyla. Şifreleriniz sunucularımızda ileri düzey hashing (kriptografik özetleme) yöntemleriyle saklanır. Ham şifreniz hiçbir personelimiz tarafından görülemez.
-
-Üçüncü Taraf Girişleri: Apple veya Google Hesabı ile oturum açma seçeneği sunulmaktadır. Bu durumda, ilgili platformdan gelen jeton (token) verileriyle kimlik doğrulamanız yapılır.
-
-2.2. Hesap Sorumluluğu: Hesabınız size özeldir. Şifrenizin gizliliğini korumaktan ve hesabınız altında gerçekleşen tüm faaliyetlerden (satın alma, yorum yapma) bizzat sorumlusunuz.
-
-2.3. Cihaz Sınırlandırması: Moodzy, hesap güvenliğini sağlamak ve "hesap paylaşımını" önlemek amacıyla aynı anda giriş yapılabilecek cihaz sayısına (genellikle aynı anda 2 cihaz) kısıtlama getirme hakkını saklı tutar. Sınırı aşan cihazlarda kimlik doğrulaması istenebilir.
-
-3. HESAP SİLME VE 24 SAAT VERİ İMHA TAAHHÜDÜ
-Moodzy, global gizlilik standartlarının (KVKK, LGPD, GDPR) ötesinde bir veri imha politikası izler:
-
-Silme Süreci: Kullanıcı, uygulama ayarları üzerinden "Hesabımı Sil" talebinde bulunabilir. Talebin onaylanmasıyla birlikte; kullanıcının kimlik verileri, iletişim bilgileri, izleme geçmişi ve kişisel tercihleri en geç 24 (yirmi dört) saat içerisinde canlı veritabanlarımızdan ve yedekleme sistemlerimizden tamamen, geri döndürülemez şekilde silinir veya anonim hale getirilir.
-
-Sonuç: 24 saatlik süre dolduktan sonra silinen bir hesabı geri getirmek veya bu hesaba bağlı harcanmamış jetonları (Moodzy Coins) talep etmek teknik olarak mümkün değildir.
-
-4. KULLANICI LİSANSI VE FİKRİ MÜLKİYET
-4.1. Sınırlı Lisans: Şartlara tam uyum sağlamanız koşuluyla Moodzy; size içerikleri kişisel, ticari olmayan ve yalnızca eğlence amaçlı izlemeniz için dünya çapında, münhasır olmayan, alt lisans verilemeyen ve devredilemeyen bir lisans verir.
-
-4.2. Mülkiyet: Platformda yer alan tüm senaryolar, videolar, müzikler, yazılım kodları, logolar ve arayüz tasarımları Moodzy'nin veya lisans verenlerinin mülkiyetindedir. Bu Şartlar, size hiçbir mülkiyet hakkı devretmez.
-
-4.3. İhlal Bildirimi: Fikri mülkiyet haklarınızın ihlal edildiğini düşünüyorsanız, legal@moodzy.com adresine resmi bir bildirim gönderebilirsiniz.
-
-5. ÖDEME ŞARTLARI VE SANAL PARA (MOODZY COIN)
-5.1. Coin Sistemi: Platformdaki kilitli içerikleri açmak için kullanılan "Moodzy Coin" bir sanal para birimidir. Coin'ler yalnızca uygulama içinde geçerlidir ve gerçek paraya dönüştürülemez.
-
-5.2. Satın Alma ve Vergiler: Tüm ücretler Türk Lirası (veya yerel para birimi cinsinden karşılığı) üzerinden tahsil edilir. Fiyatlara, kullanıcının bulunduğu bölgeye (Türkiye, Brezilya vb.) bağlı olarak KDV/VAT gibi dolaylı vergiler eklenebilir.
-
-5.3. İade Edilmezlik: Dijital içerik hizmeti sunulduğu ve "Coin" bakiyesi anında hesaba tanımlandığı için, yasaların izin verdiği azami ölçüde, tüm satın alımlar kesin ve iade edilemezdir.
-
-6. KISITLI KULLANICI DAVRANIŞLARI (YASAKLAR)
-Kullanıcılar, Platformu kullanırken aşağıdakileri yapmayacağını kabul ve taahhüt eder:
-
-Ekran Kaydı ve Dağıtım: İçeriklerin ekran kaydını almak, kopyalamak veya sosyal medya mecralarında izinsiz yayınlamak.
-
-Tersine Mühendislik: Hizmetin kaynak kodlarına erişmeye çalışmak, güvenlik mekanizmalarını atlatmak.
-
-Otomasyon: Bot, örümcek (spider) veya diğer otomatik yöntemlerle içerik çekmek.
-
-Nefret Söylemi: Yorumlarda veya kullanıcı profilinde ırkçı, cinsiyetçi, müstehcen veya aşağılayıcı ifadeler kullanmak.
-
-7. ÜÇÜNCÜ TARAF İÇERİKLERİ VE BAĞLANTILAR
-Platform, reklam amaçlı veya kolaylık sağlamak adına üçüncü taraf web sitelerine bağlantılar içerebilir. Moodzy, bu dış sitelerin doğruluğunu, güvenliğini veya kalitesini garanti etmez. Üçüncü taraf hizmetleriyle olan etkileşiminizden doğacak zararlardan Moodzy sorumlu değildir.
-
-8. YASAL UYARILAR VE SORUMLULUK SINIRI
-8.1. "Olduğu Gibi" Esası: Platform, "mevcut haliyle" sunulmaktadır. Hizmetin kesintisiz, hatasız veya siber saldırılardan tamamen muaf olacağına dair garanti verilmez.
-
-8.2. Sorumluluk Sınırı: Yasal teoriye bakılmaksızın (sözleşme, haksız fiil vb.), Moodzy’nin size karşı toplam sorumluluğu hiçbir durumda son 6 ay içinde bize ödediğiniz tutarı veya 500 ABD Dolarını aşamaz.
-
-9. TAZMİNAT
-Kullanıcı; Hizmeti kullanımından, bu Şartları ihlal etmesinden veya üçüncü bir tarafın haklarını çiğnemesinden kaynaklanan her türlü iddia, yükümlülük, hasar ve masrafı (makul avukatlık ücretleri dahil) Moodzy’ye tazmin etmeyi kabul eder.
-
-10. UYGULANACAK HUKUK VE TAHKİM
-Hukuk Seçimi: Bu Şartlar, kanunlar çatışması prensiplerine bakılmaksızın Türkiye Yasalarına tabidir.
-
-Tahkim: Şartlardan doğan her türlü anlaşmazlık, Türkiye Uluslararası Tahkim Merkezi  kuralları uyarınca, Türkiye'de gerçekleşecek bağlayıcı tahkim yoluyla kesin olarak çözülecektir.
-
-11. İLETİŞİM BİLGİLERİ VE BİLDİRİMLER
-Moodzy ile iletişime geçmek için:
-
-Şirket Unvanı: MOODZY YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ
-
-Destek/Hukuki E-posta: info@moodzyapp.com
-
-Yasal Bildirimler: Hesabınızda kayıtlı e-posta adresine yapılan gönderimler, geçerli tebligat yerine geçer.
-
-Son Onay: Bu Platformu kullanarak, yukarıdaki şartları ve bölgeye özgü hükümleri koşulsuz olarak kabul ettiğinizi, 16 yaşından büyük olduğunuzu ve kişisel verilerinizin "Gizlilik Politikası"na uygun olarak işlenmesine rıza gösterdiğinizi onaylarsınız.</div>
+      <div class="space-y-6 text-sm leading-relaxed text-white/80 whitespace-pre-wrap" id="terms-content">Yükleniyor... / Loading...</div>
     </div>
   </main>
+  <script src="policy-translations.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const langSelector = document.getElementById("lang-selector");
+      const contentContainer = document.getElementById("terms-content");
+      const backBtn = document.getElementById("back-btn");
+      const pageTitle = document.querySelector("title");
+
+      const uiTranslations = {
+        tr: { back: "Geri Dön", title: "Kullanım Şartları | Moodzy" },
+        en: { back: "Go Back", title: "Terms of Use | Moodzy" },
+        es: { back: "Volver", title: "Términos de Uso | Moodzy" },
+        pt: { back: "Voltar", title: "Termos de Uso | Moodzy" },
+        fr: { back: "Retour", title: "Conditions d'Utilisation | Moodzy" },
+        id: { back: "Kembali", title: "Ketentuan Penggunaan | Moodzy" },
+        fil: { back: "Bumalik", title: "Mga Tuntunin sa Paggamit | Moodzy" },
+        th: { back: "ย้อนกลับ", title: "ข้อกำหนดการใช้งาน | Moodzy" },
+        hi: { back: "वापस जाएं", title: "उपयोग की शर्तें | Moodzy" },
+        ar: { back: "العودة", title: "شروط الاستخدام | Moodzy" }
+      };
+
+      const supportedLangs = ["tr", "en", "es", "pt", "fr", "id", "fil", "th", "hi", "ar"];
+
+      function getLanguage() {
+        const urlParams = new URLSearchParams(window.location.search);
+        let lang = urlParams.get("lang");
+        if (lang && supportedLangs.includes(lang.toLowerCase())) {
+          return lang.toLowerCase();
+        }
+
+        lang = localStorage.getItem("preferred_lang");
+        if (lang && supportedLangs.includes(lang.toLowerCase())) {
+          return lang.toLowerCase();
+        }
+
+        const browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
+        for (let bLang of browserLangs) {
+          bLang = bLang.split("-")[0].toLowerCase();
+          if (supportedLangs.includes(bLang)) {
+            return bLang;
+          }
+        }
+
+        return "tr";
+      }
+
+      function updateLanguage(lang) {
+        localStorage.setItem("preferred_lang", lang);
+        langSelector.value = lang;
+
+        if (window.policyTranslations && window.policyTranslations.terms && window.policyTranslations.terms[lang]) {
+          contentContainer.textContent = window.policyTranslations.terms[lang];
+        } else {
+          contentContainer.textContent = "Yükleniyor... / Loading...";
+        }
+
+        const ui = uiTranslations[lang] || uiTranslations.tr;
+        if (backBtn) backBtn.textContent = ui.back;
+        if (pageTitle) pageTitle.textContent = ui.title;
+
+        if (lang === "ar") {
+          document.documentElement.dir = "rtl";
+          document.documentElement.lang = "ar";
+          contentContainer.classList.add("text-right");
+          contentContainer.classList.remove("text-left");
+        } else {
+          document.documentElement.dir = "ltr";
+          document.documentElement.lang = lang;
+          contentContainer.classList.remove("text-right");
+          contentContainer.classList.add("text-left");
+        }
+      }
+
+      langSelector.addEventListener("change", (e) => {
+        updateLanguage(e.target.value);
+      });
+
+      const initialLang = getLanguage();
+      updateLanguage(initialLang);
+    });
+  </script>
 </body>
 </html>

@@ -1,0 +1,138 @@
+POLITIQUE MONDIALE DE CONFIDENTIALITÉ ET NOTICE D’INFORMATION DE MOODZY
+
+Dernière mise à jour : 12 février 2026
+Version :1
+
+INTRODUCTION ET CHAMP D’APPLICATION
+
+La présente Politique de Confidentialité s’applique à l’application Moodzy, au site web, au logiciel, aux interactions intégrées à l’application et à tous les services numériques associés (« Moodzy » ou la « Plateforme »). Moodzy est exploitée et fournie par MOODZY YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ (« Société », « nous » ou « notre »), domiciliée à l’adresse suivante : Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez.
+
+Nous sommes conscients que la confidentialité et la sécurité de vos données personnelles constituent un droit fondamental. La présente Politique de Confidentialité explique comment nous collectons, utilisons, partageons, traitons, conservons et détruisons définitivement vos informations personnelles dans le cadre de votre utilisation de nos services. Elle détaille également les options légales dont vous disposez concernant l’utilisation, l’accès, la correction et la suppression de vos données personnelles.
+
+La présente Politique de Confidentialité est applicable à l’échelle mondiale et a été conçue pour respecter les lois locales de toutes les régions dans lesquelles nous fournissons nos services (KVKK, LGPD, PDPL, etc.).
+
+SI VOUS N’ACCEPTEZ PAS CETTE POLITIQUE DE CONFIDENTIALITÉ, VEUILLEZ NE PAS UTILISER MOODZY. EN CONTINUANT À UTILISER MOODZY, VOUS DÉCLAREZ COMPRENDRE ET ACCEPTER LES ACTIVITÉS DE TRAITEMENT DES DONNÉES INDIQUÉES DANS CETTE POLITIQUE.
+
+La présente Politique de Confidentialité couvre les sujets suivants :
+
+1. Quelles informations collectons-nous ?
+
+2. Comment utilisons-nous vos informations
+
+3. Comment partageons-nous vos informations
+
+4. Comment stockons-nous et protégeons-nous vos informations
+
+5. Quels sont vos droits et vos options ?
+
+6. Comment traitons-nous les informations des mineurs ?
+
+7. Transferts internationaux
+
+8. Mises à jour de la Politique de Confidentialité
+
+9. Comment pouvez-vous nous contacter ?
+
+10. Langue
+
+11. Droit applicable et règlement des litiges
+
+12. QUELLES INFORMATIONS COLLECTONS-NOUS ?
+
+Moodzy collecte uniquement les données nécessaires afin d’offrir à ses utilisateurs une expérience fluide. Selon la méthode d’inscription, les données collectées sont les suivantes :
+
+1.1. Informations de création de compte et d’inscription :
+
+Inscription manuelle : Lorsque l’utilisateur choisit de s’inscrire directement par e-mail, nous collectons le prénom, le nom, l’adresse e-mail et le mot de passe. Vos mots de passe sont stockés sous forme chiffrée à l’aide d’algorithmes avancés de hachage (par exemple bcrypt/scrypt) ; personne, y compris nos employés, ne peut accéder à votre mot de passe brut.
+
+Connexions via des tiers (Apple & Google) : Lorsque vous choisissez de vous connecter à notre Plateforme avec votre Apple ID ou votre Compte Google, nous collectons les informations transmises par les organisations concernées, notamment l’identifiant unique d’utilisateur (Token), le prénom-nom et l’adresse e-mail vérifiée. Lorsque vous vous inscrivez par cette méthode, le partage de données s’effectue dans la mesure autorisée par les paramètres de confidentialité du tiers.
+
+1.2. Informations collectées automatiquement :
+
+Identifiants de l’appareil : Adresse IP, type d’appareil (iPhone/Android), version du système d’exploitation, type de navigateur et identifiants publicitaires (IDFA/GAID).
+
+Données d’utilisation : Séries courtes regardées, actions d’ajout aux favoris, requêtes de recherche dans l’application et durée de consommation du contenu.
+
+2. COMMENT UTILISONS-NOUS VOS INFORMATIONS
+
+Les données collectées sont traitées dans le cadre des bases juridiques et finalités suivantes :
+
+Exécution du contrat : Création du compte utilisateur, fourniture de l’accès aux contenus et attribution au compte des produits virtuels achetés (jetons/coins).
+
+Personnalisation assistée par intelligence artificielle : Recommandation des contenus les plus adaptés à vos préférences grâce à l’analyse de vos habitudes de visionnage.
+
+Développement de la Plateforme : Détection des erreurs techniques, tests A/B et optimisation de l’interface utilisateur.
+
+Sécurité et conformité juridique : Prévention des activités frauduleuses et prévention de l’utilisation abusive de la plateforme.
+
+Marketing : Si vous donnez votre consentement, envoi de notifications push et d’e-mails concernant des contenus et promotions susceptibles de vous intéresser.
+
+3. COMMENT PARTAGEONS-NOUS VOS INFORMATIONS
+
+Moodzy ne vend jamais directement les données des utilisateurs. Les partages sont limités uniquement aux situations suivantes :
+
+Prestataires de services : Partenaires commerciaux fournissant des services de stockage de données (AWS/Google Cloud), des systèmes de support client et des services d’analyse de données (AppsFlyer/Firebase).
+
+Partenaires publicitaires : Partage de vos identifiants publicitaires (IDFA/AAID) avec des réseaux publicitaires sous forme anonymisée à des fins de ciblage publicitaire.
+
+Sociétés du groupe : Sociétés affiliées auxquelles Moodzy est liée pour l’efficacité opérationnelle.
+
+Obligations légales : Lorsque les autorités judiciaires ou administratives compétentes le demandent conformément aux lois applicables (KVKK, LGPD, PDPL, etc.).
+
+4. COMMENT STOCKONS-NOUS ET PROTÉGEONS-NOUS VOS INFORMATIONS
+
+4.1. Sécurité : Vos données sont protégées par le protocole de chiffrement AES-256 et surveillées contre les accès non autorisés au moyen de systèmes d’authentification multifactorielle (MFA).
+
+4.2. Engagement de suppression complète sous 24 heures :
+
+Moodzy respecte au plus haut niveau le « Droit à l’oubli » de ses utilisateurs. Lorsque l’utilisateur soumet une demande « Supprimer mon compte » via les paramètres de l’application ou le canal de support ;
+
+Les données d’identité, de contact, l’historique de visionnage et les dossiers financiers de l’utilisateur (à l’exception des factures soumises à une obligation légale de conservation) sont supprimés de manière irréversible de nos serveurs, sauvegardes et bases de données dans un délai de 24 heures.
+
+Une fois ce processus terminé, tout lien numérique entre l’utilisateur et la plateforme est rompu.
+
+5. QUELS SONT VOS DROITS ET VOS OPTIONS ?
+
+Quel que soit le pays dans lequel vous vous trouvez, vous disposez des droits suivants :
+
+Accès et information : Demander une copie des données détenues à votre sujet.
+
+Correction : Demander la mise à jour de vos données incorrectes ou incomplètes.
+
+Opposition : Vous opposer au traitement de vos données à des fins de marketing.
+
+Portabilité des données : Demander vos données dans un format structuré et couramment utilisé.
+
+6. COMMENT TRAITONS-NOUS LES INFORMATIONS DES MINEURS ?
+
+Moodzy ne s’adresse pas aux enfants de moins de 13 ans ou aux personnes n’ayant pas atteint l’âge minimum (« Âge Minimum ») indiqué par les lois et réglementations de votre juridiction concernée. Par conséquent, nous ne collectons pas sciemment les informations personnelles de toute personne n’ayant pas atteint l’Âge Minimum. Si vous n’avez pas atteint l’Âge Minimum, veuillez ne pas utiliser Moodzy et ne pas nous envoyer vos informations personnelles. Si vous pensez que nous pouvons détenir des informations concernant des enfants n’ayant pas atteint l’Âge Minimum, vous pouvez nous contacter en utilisant les coordonnées indiquées dans la présente Politique de Confidentialité. Si nous apprenons que nous avons collecté des informations personnelles d’enfants n’ayant pas atteint l’Âge Minimum, nous prendrons les mesures nécessaires pour supprimer immédiatement ces informations et fermer le compte concerné.
+
+Si vous avez atteint l’âge minimum mais que vous êtes encore en dessous de l’âge de la majorité tel que défini par les lois et réglementations applicables, vous ne pouvez utiliser Moodzy que par l’intermédiaire de votre parent ou représentant légal. Vous devez lire la présente Politique de Confidentialité sous la supervision et les conseils de votre parent ou représentant légal, et ne soumettre vos informations personnelles qu’après que votre parent ou représentant légal a approuvé cette Politique de Confidentialité. Vous et votre parent ou représentant légal serez réputés avoir accepté la présente Politique de Confidentialité.
+
+7. TRANSFERTS INTERNATIONAUX
+
+Moodzy est un service mondial. Les données collectées peuvent être transférées vers des serveurs situés en dehors de la Turquie (généralement dans l’UE ou aux États-Unis). Ces transferts sont sécurisés par les « Clauses Contractuelles Types » et les mécanismes de transfert sécurisé (SCCs) prévus par les lois locales.
+
+8. MISES À JOUR DE LA POLITIQUE DE CONFIDENTIALITÉ
+
+La présente politique peut être mise à jour en fonction des changements juridiques ou des nouvelles fonctionnalités. Les changements importants seront notifiés à l’utilisateur par notification intégrée à l’application ou par e-mail. La poursuite de l’utilisation signifie que vous acceptez la politique mise à jour.
+
+9. COMMENT POUVEZ-VOUS NOUS CONTACTER ?
+
+Pour toute question, réclamation ou demande de suppression de données liée à la confidentialité :
+
+E-mail : [info@moodzyapp.com](mailto:info@moodzyapp.com)
+
+Adresse : Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez
+
+10. LANGUE
+
+La présente Politique de Confidentialité a été rédigée en langue turque. En cas de conflit entre les traductions, le texte turc sera considéré comme la référence aux fins d’interprétation juridique.
+
+11. DROIT APPLICABLE ET RÈGLEMENT DES LITIGES
+
+Sauf disposition contraire imposée par les lois locales, la présente politique est régie par les lois de la Turquie. En cas de litige, les tribunaux et commissions d’arbitrage du pays concerné seront compétents.
+
+CONSENTEMENT
+
+En utilisant l’application Moodzy, vous reconnaissez avoir plus de 13 ans et avoir lu et compris les conditions contenues dans la présente Politique de Confidentialité.

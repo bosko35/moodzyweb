@@ -1,0 +1,138 @@
+MOODZY GLOBAL PRIVACY POLICY AT PAHAYAG NG IMPORMASYON
+
+Huling Update: Pebrero 12, 2026
+Bersyon:1
+
+PANIMULA AT SAKLAW
+
+Ang Privacy Policy na ito ay nalalapat sa Moodzy application, website, software, mga interaksyon sa loob ng app, at lahat ng kaugnay na digital na serbisyo ("Moodzy" o "Platform"). Ang Moodzy ay pinapatakbo at ibinibigay ng MOODZY YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ ("Kumpanya", "kami" o "amin"), na matatagpuan sa Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez.
+
+Kinikilala namin na ang iyong privacy at seguridad ng iyong personal na data ay isang pangunahing karapatan. Ipinapaliwanag ng Privacy Policy na ito kung paano namin kinokolekta, ginagamit, ibinabahagi, pinoproseso, iniimbak, at ganap na sinisira ang iyong personal na impormasyon kaugnay ng iyong paggamit ng aming mga serbisyo. Detalyado rin nitong inilalahad ang iyong mga legal na opsyon kaugnay ng paggamit, pag-access, pagwawasto, at pagtanggal ng iyong personal na data.
+
+Ang Privacy Policy na ito ay may bisa sa pandaigdigang saklaw at idinisenyo upang sumunod sa mga lokal na batas sa lahat ng rehiyon kung saan kami nagbibigay ng serbisyo (KVKK, LGPD, PDPL, atbp.).
+
+KUNG HINDI MO TINATANGGAP ANG PRIVACY POLICY NA ITO, MANGYARING HUWAG GAMITIN ANG MOODZY. SA PATULOY NA PAGGAMIT NG MOODZY, IPINAPAHAYAG MO NA NAUUNAWAAN AT TINATANGGAP MO ANG MGA AKTIBIDAD SA PAGPROSESO NG DATA NA TINUKOY SA POLICY NA ITO.
+
+Saklaw ng Privacy Policy na ito ang mga sumusunod na paksa:
+
+1. Anong Impormasyon ang Kinokolekta Namin?
+
+2. Paano Namin Ginagamit ang Iyong Impormasyon
+
+3. Paano Namin Ibinabahagi ang Iyong Impormasyon
+
+4. Paano Namin Iniimbak at Pinoprotektahan ang Iyong Impormasyon
+
+5. Ano ang Iyong mga Karapatan at Opsyon?
+
+6. Paano Namin Pinoproseso ang Impormasyon ng mga Menor de Edad?
+
+7. Mga Internasyonal na Paglilipat
+
+8. Mga Update sa Privacy Policy
+
+9. Paano Mo Kami Makokontak?
+
+10. Wika
+
+11. Naaangkop na Batas at Paglutas ng Alitan
+
+12. ANONG IMPORMASYON ANG KINOKOLEKTA NAMIN?
+
+Ang Moodzy ay nangongolekta lamang ng kinakailangang data upang makapagbigay ng tuloy-tuloy na karanasan sa mga user nito. Depende sa paraan ng pagpaparehistro, ang mga kinokolektang data ay ang mga sumusunod:
+
+1.1. Impormasyon sa Paglikha ng Account at Pagpaparehistro:
+
+Manwal na Pagpaparehistro: Kapag pinili ng user na direktang magparehistro sa pamamagitan ng e-mail, kinokolekta namin ang Pangalan, Apelyido, E-mail Address, at Password. Ang iyong mga password ay iniimbak nang naka-encrypt gamit ang advanced hashing algorithms (hal. bcrypt/scrypt); walang sinuman, kabilang ang aming mga empleyado, ang maaaring makapag-access sa iyong raw password.
+
+Third-Party Logins (Apple at Google): Kapag pinili mong mag-login sa aming Platform gamit ang Apple ID o Google Account, kinokolekta namin ang impormasyong ipinapasa sa amin ng kaugnay na mga organisasyon; natatanging user identifier (Token), pangalan-apelyido, at beripikadong e-mail address. Kapag nagparehistro ka gamit ang paraang ito, ang pagbabahagi ng data ay nangyayari ayon sa lawak na pinahihintulutan mo sa privacy settings ng third party.
+
+1.2. Impormasyong Awtomatikong Kinokolekta:
+
+Mga Device Identifier: IP address, uri ng device (iPhone/Android), bersyon ng operating system, uri ng browser, at advertising identifiers (IDFA/GAID).
+
+Usage Data: Mga napanood na short series, mga aksyon ng pagdagdag sa favorites, mga in-app search query, at tagal ng pagkonsumo ng content.
+
+2. PAANO NAMIN GINAGAMIT ANG IYONG IMPORMASYON
+
+Ang nakolektang data ay pinoproseso sa ilalim ng mga sumusunod na legal na batayan at layunin:
+
+Pagtupad sa Kontrata: Paglikha ng user account, pagbibigay ng access sa content, at paglalagay sa account ng mga biniling virtual products (tokens/coins).
+
+AI-Supported Personalization: Pagrerekomenda ng pinakaangkop na content para sa iyo sa pamamagitan ng pagsusuri ng iyong viewing habits.
+
+Pagpapaunlad ng Platform: Pagtukoy ng mga teknikal na error, A/B tests, at pag-optimize ng user interface.
+
+Seguridad at Legal na Pagsunod: Pag-iwas sa mga mapanlinlang na aktibidad at pagpigil sa maling paggamit ng platform.
+
+Marketing: Kung magbibigay ka ng pahintulot, pagpapadala ng push notifications at e-mails tungkol sa content at promotions na maaaring interesado ka.
+
+3. PAANO NAMIN IBINABAHAGI ANG IYONG IMPORMASYON
+
+Hindi kailanman direktang ibinebenta ng Moodzy ang user data. Ang pagbabahagi ay limitado lamang sa mga sumusunod na sitwasyon:
+
+Service Providers: Mga business partner na nagbibigay ng data storage (AWS/Google Cloud), customer support systems, at data analytics (AppsFlyer/Firebase) services.
+
+Advertising Partners: Pagbabahagi ng iyong advertising identifiers (IDFA/AAID) sa advertising networks sa anonymized na paraan para sa ad targeting.
+
+Group Companies: Mga affiliate kung saan kaugnay ang Moodzy para sa operational efficiency.
+
+Legal Obligations: Kapag hiniling ng awtorisadong hudisyal o administratibong awtoridad alinsunod sa mga naaangkop na batas (KVKK, LGPD, PDPL, atbp.).
+
+4. PAANO NAMIN INIIMBAK AT PINOPROTEKTAHAN ANG IYONG IMPORMASYON
+
+4.1. Seguridad: Ang iyong data ay pinoprotektahan gamit ang AES-256 encryption protocol at minomonitor laban sa hindi awtorisadong access sa pamamagitan ng Multi-Factor Authentication (MFA) systems.
+
+4.2. Pangako ng Kumpletong Pagtanggal sa Loob ng 24 Oras:
+
+Lubos na iginagalang ng Moodzy ang "Right to Be Forgotten" ng mga user nito. Kapag nagsumite ang user ng kahilingang "Delete My Account" sa pamamagitan ng app settings o support channel;
+
+Ang identity, contact, viewing history, at financial records ng user (maliban sa invoice records na may legal retention obligation) ay permanenteng at hindi na maibabalik na tinatanggal mula sa aming mga server, backups, at databases sa loob ng 24 oras.
+
+Kapag nakumpleto ang prosesong ito, ang lahat ng digital na ugnayan ng user sa platform ay napuputol.
+
+5. ANO ANG IYONG MGA KARAPATAN AT OPSYON?
+
+Anuman ang bansang kinaroroonan mo, mayroon kang mga sumusunod na karapatan:
+
+Access at Pagkuha ng Impormasyon: Humiling ng kopya ng data na hawak tungkol sa iyo.
+
+Pagwawasto: Humiling na i-update ang iyong mali o kulang na data.
+
+Pagtutol: Tumutol sa pagproseso ng iyong data para sa layunin ng marketing.
+
+Data Portability: Hilingin ang iyong data sa isang structured at commonly used format.
+
+6. PAANO NAMIN PINOPROSESO ANG IMPORMASYON NG MGA MENOR DE EDAD?
+
+Hindi ito nakatuon sa mga batang wala pang 13 taong gulang o sa mga mas mababa sa minimum age ("Minimum Age") na tinukoy sa mga batas at regulasyon ng iyong kaugnay na hurisdiksyon. Samakatuwid, hindi namin sinasadyang nangongolekta ng personal na impormasyon mula sa sinumang mas mababa sa Minimum Age. Kung ikaw ay mas mababa sa Minimum Age, mangyaring huwag gamitin ang Moodzy at huwag ipadala sa amin ang iyong personal na impormasyon. Kung naniniwala kang maaaring mayroon kaming anumang impormasyon tungkol sa mga batang mas mababa sa Minimum Age, maaari kang makipag-ugnayan sa amin gamit ang contact information na ibinigay sa Privacy Policy na ito. Kung malaman namin na nakolekta namin ang personal na impormasyon mula sa mga batang mas mababa sa Minimum Age, gagawin namin ang kinakailangang mga hakbang upang agad na tanggalin ang impormasyong ito at isara ang kaugnay na account.
+
+Kung naabot mo na ang minimum age ngunit mas mababa ka pa sa age of majority na tinukoy sa mga naaangkop na batas at regulasyon, maaari mong gamitin ang Moodzy lamang sa pamamagitan ng representasyon ng iyong magulang o legal guardian. Dapat mong basahin ang Privacy Policy na ito sa ilalim ng pangangasiwa at gabay ng iyong magulang o legal guardian at ipadala lamang ang iyong kaugnay na personal na impormasyon pagkatapos aprubahan ng iyong magulang o legal guardian ang Privacy Policy na ito. Ikaw at ang iyong magulang o legal guardian ay ituturing na tumanggap sa Privacy Policy na ito.
+
+7. MGA INTERNASYONAL NA PAGLILIPAT
+
+Ang Moodzy ay isang global na serbisyo. Ang nakolektang data ay maaaring ilipat sa mga server sa labas ng Türkiye (karaniwan sa EU o USA). Ang mga paglilipat na ito ay sinisiguro ng "Standard Contractual Clauses" at secure transfer mechanisms (SCCs) na itinakda ng mga lokal na batas.
+
+8. MGA UPDATE SA PRIVACY POLICY
+
+Maaaring i-update ang policy na ito alinsunod sa mga legal na pagbabago o bagong feature. Ang mahahalagang pagbabago ay ipaaalam sa user sa pamamagitan ng in-app notification o e-mail. Ang patuloy na paggamit ay nangangahulugang tinatanggap mo ang updated policy.
+
+9. PAANO MO KAMI MAKOKONTAK?
+
+Para sa anumang tanong, reklamo, o kahilingan sa pagtanggal ng data na may kaugnayan sa privacy:
+
+E-mail: [info@moodzyapp.com](mailto:info@moodzyapp.com)
+
+Address: Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez
+
+10. WIKA
+
+Ang Privacy Policy na ito ay inihanda sa wikang Turkish. Kung magkaroon ng pagkakaiba sa pagitan ng mga salin, ang Turkish na teksto ang ituturing na sanggunian para sa legal na interpretasyon.
+
+11. NAAANGKOP NA BATAS AT PAGLUTAS NG ALITAN
+
+Maliban kung iba ang ipinag-uutos ng mga lokal na batas, ang policy na ito ay pinamamahalaan ng mga batas ng Türkiye. Sa mga alitan, ang mga korte at arbitration boards ng kaugnay na bansa ang magkakaroon ng hurisdiksyon.
+
+PAHINTULOT
+
+Sa paggamit ng Moodzy application, tinatanggap mo na ikaw ay higit sa 13 taong gulang at nabasa at naunawaan mo ang mga tuntuning nakapaloob sa Privacy Policy na ito.

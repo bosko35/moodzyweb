@@ -1,0 +1,138 @@
+POLÍTICA GLOBAL DE PRIVACIDADE E AVISO DE ESCLARECIMENTO DA MOODZY
+
+Última Atualização: 12 de fevereiro de 2026
+Versão:1
+
+INTRODUÇÃO E ESCOPO
+
+Esta Política de Privacidade aplica-se ao aplicativo Moodzy, site, software, interações dentro do aplicativo e todos os serviços digitais relacionados ("Moodzy" ou "Plataforma"). A Moodzy é operada e fornecida pela MOODZY YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ ("Empresa", "nós" ou "nos"), localizada em Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez.
+
+Reconhecemos que a privacidade e a segurança dos seus dados pessoais são um direito fundamental. Esta Política de Privacidade explica como coletamos, usamos, compartilhamos, processamos, armazenamos e destruímos permanentemente suas informações pessoais em conexão com o uso dos nossos serviços. Também detalha as opções legais que você possui em relação ao uso, acesso, correção e exclusão dos seus dados pessoais.
+
+Esta Política de Privacidade é válida em escala global e foi elaborada para estar em conformidade com as leis locais de todas as regiões onde prestamos serviços (KVKK, LGPD, PDPL etc.).
+
+SE VOCÊ NÃO ACEITA ESTA POLÍTICA DE PRIVACIDADE, POR FAVOR, NÃO USE A MOODZY. AO CONTINUAR A USAR A MOODZY, VOCÊ DECLARA QUE ENTENDE E ACEITA AS ATIVIDADES DE PROCESSAMENTO DE DADOS ESPECIFICADAS NESTA POLÍTICA.
+
+Esta Política de Privacidade abrange os seguintes tópicos:
+
+1. Quais Informações Coletamos?
+
+2. Como Usamos Suas Informações
+
+3. Como Compartilhamos Suas Informações
+
+4. Como Armazenamos e Protegemos Suas Informações
+
+5. Quais São Seus Direitos e Opções?
+
+6. Como Tratamos as Informações de Menores?
+
+7. Transferências Internacionais
+
+8. Atualizações da Política de Privacidade
+
+9. Como Você Pode Entrar em Contato Conosco?
+
+10. Idioma
+
+11. Lei Aplicável e Resolução de Disputas
+
+12. QUAIS INFORMAÇÕES COLETAMOS?
+
+A Moodzy coleta apenas os dados necessários para oferecer uma experiência contínua aos seus usuários. Dependendo do método de cadastro, os dados coletados são os seguintes:
+
+1.1. Informações de Criação de Conta e Cadastro:
+
+Cadastro Manual: Quando o usuário opta por se cadastrar diretamente por e-mail, coletamos Nome, Sobrenome, Endereço de E-mail e Senha. Suas senhas são armazenadas criptografadas por meio de algoritmos avançados de hashing (por exemplo, bcrypt/scrypt); ninguém, incluindo nossos funcionários, pode acessar sua senha original.
+
+Logins de Terceiros (Apple & Google): Quando você escolhe fazer login em nossa Plataforma com Apple ID ou Conta Google, coletamos as informações transferidas a nós pelas respectivas organizações, como identificador único de usuário (Token), nome-sobrenome e endereço de e-mail verificado. Ao se cadastrar por esse método, o compartilhamento de dados ocorre na medida permitida pelas configurações de privacidade do terceiro.
+
+1.2. Informações Coletadas Automaticamente:
+
+Identificadores do Dispositivo: Endereço IP, tipo de dispositivo (iPhone/Android), versão do sistema operacional, tipo de navegador e identificadores de publicidade (IDFA/GAID).
+
+Dados de Uso: Séries curtas assistidas, ações de adicionar aos favoritos, consultas de pesquisa dentro do aplicativo e duração do consumo de conteúdo.
+
+2. COMO USAMOS SUAS INFORMAÇÕES?
+
+Os dados coletados são processados com base nos seguintes fundamentos legais e finalidades:
+
+Execução do Contrato: Criação da conta de usuário, fornecimento de acesso aos conteúdos e atribuição dos produtos virtuais adquiridos (tokens/moedas) à conta.
+
+Personalização Apoiada por Inteligência Artificial: Recomendação dos conteúdos mais adequados para você por meio da análise dos seus hábitos de visualização.
+
+Desenvolvimento da Plataforma: Detecção de erros técnicos, testes A/B e otimizações da interface do usuário.
+
+Segurança e Conformidade Legal: Prevenção de atividades fraudulentas e impedimento do uso indevido da plataforma.
+
+Marketing: Caso você dê consentimento, envio de notificações push e e-mails sobre conteúdos e promoções que possam ser do seu interesse.
+
+3. COMO COMPARTILHAMOS SUAS INFORMAÇÕES?
+
+A Moodzy nunca vende diretamente os dados dos usuários. Os compartilhamentos são limitados apenas às seguintes situações:
+
+Prestadores de Serviço: Parceiros comerciais que fornecem serviços de armazenamento de dados (AWS/Google Cloud), sistemas de suporte ao cliente e análise de dados (AppsFlyer/Firebase).
+
+Parceiros de Publicidade: Compartilhamento dos seus identificadores de publicidade (IDFA/AAID) com redes de publicidade de forma anonimizada para fins de segmentação de anúncios.
+
+Empresas do Grupo: Afiliadas às quais a Moodzy está vinculada para fins de eficiência operacional.
+
+Obrigações Legais: Quando solicitado por autoridades judiciais ou administrativas competentes, de acordo com as leis aplicáveis (KVKK, LGPD, PDPL etc.).
+
+4. COMO ARMAZENAMOS E PROTEGEMOS SUAS INFORMAÇÕES?
+
+4.1. Segurança: Seus dados são protegidos pelo protocolo de criptografia AES-256 e monitorados contra acesso não autorizado por meio de sistemas de Autenticação Multifator (MFA).
+
+4.2. Compromisso de Exclusão Completa em 24 Horas:
+
+A Moodzy respeita ao mais alto nível o "Direito ao Esquecimento" dos seus usuários. Quando o usuário solicita "Excluir Minha Conta" por meio das configurações do aplicativo ou pelo canal de suporte;
+
+Os dados de identidade, contato, histórico de visualização e registros financeiros do usuário (exceto registros de faturas sujeitos à obrigação legal de retenção) são excluídos de forma irreversível dos nossos servidores, backups e bancos de dados no prazo de 24 horas.
+
+Quando este processo é concluído, todo vínculo digital do usuário com a plataforma é encerrado.
+
+5. QUAIS SÃO SEUS DIREITOS E OPÇÕES?
+
+Independentemente do país em que você esteja, você possui os seguintes direitos:
+
+Acesso e Obtenção de Informação: Solicitar uma cópia dos dados mantidos sobre você.
+
+Correção: Solicitar a atualização dos seus dados incorretos ou incompletos.
+
+Oposição: Opor-se ao processamento dos seus dados para fins de marketing.
+
+Portabilidade de Dados: Solicitar seus dados em um formato estruturado e comumente utilizado.
+
+6. COMO TRATAMOS AS INFORMAÇÕES DE MENORES?
+
+Não é direcionado a crianças menores de 13 anos ou abaixo da idade mínima ("Idade Mínima") especificada nas leis e regulamentos da sua jurisdição relevante. Portanto, não coletamos conscientemente informações pessoais de ninguém abaixo da Idade Mínima. Se você estiver abaixo da Idade Mínima, por favor, não use a Moodzy e não nos envie suas informações pessoais. Se você acredita que podemos ter alguma informação sobre crianças abaixo da Idade Mínima, você pode entrar em contato conosco usando as informações de contato fornecidas nesta Política de Privacidade. Se soubermos que coletamos informações pessoais de crianças abaixo da Idade Mínima, tomaremos as medidas necessárias para excluir imediatamente essas informações e encerrar a conta relacionada.
+
+Se você atingiu a idade mínima, mas ainda está abaixo da maioridade definida pelas leis e regulamentos aplicáveis, você pode usar a Moodzy apenas por meio da representação de seu pai, mãe ou responsável legal. Você deve ler esta Política de Privacidade sob a supervisão e orientação de seu pai, mãe ou responsável legal e enviar suas informações pessoais relevantes somente após o consentimento de seu pai, mãe ou responsável legal a esta Política de Privacidade. Você e seu pai, mãe ou responsável legal serão considerados como tendo aceitado esta Política de Privacidade.
+
+7. TRANSFERÊNCIAS INTERNACIONAIS
+
+A Moodzy é um serviço global. Os dados coletados podem ser transferidos para servidores fora da Turquia (geralmente na UE ou nos EUA). Essas transferências são protegidas por "Cláusulas Contratuais Padrão" e mecanismos seguros de transferência (SCCs) previstos pelas leis locais.
+
+8. ATUALIZAÇÕES DA POLÍTICA DE PRIVACIDADE
+
+Esta política pode ser atualizada de acordo com alterações legais ou novos recursos. Alterações importantes serão notificadas ao usuário por meio de notificação dentro do aplicativo ou e-mail. A continuidade do uso significa que você aceita a política atualizada.
+
+9. COMO VOCÊ PODE ENTRAR EM CONTATO CONOSCO?
+
+Para qualquer pergunta, reclamação ou solicitação de exclusão de dados relacionada à privacidade:
+
+E-mail: [info@moodzyapp.com](mailto:info@moodzyapp.com)
+
+Endereço: Çıkınlar Mahallesi Sıla Sokak Seyfettin Demir Sitesi No:23 İç Kapı No:3 Bolu/Merkez
+
+10. IDIOMA
+
+Esta Política de Privacidade foi preparada em idioma turco. Em caso de conflito entre as traduções, o texto em turco será considerado referência para fins de interpretação legal.
+
+11. LEI APLICÁVEL E RESOLUÇÃO DE DISPUTAS
+
+Salvo exigência contrária das leis locais, esta política é regida pelas leis da Turquia. Em caso de disputas, os tribunais e conselhos de arbitragem do país relevante terão jurisdição.
+
+CONSENTIMENTO
+
+Ao usar o aplicativo Moodzy, você aceita que tem mais de 13 anos e que leu e entendeu os termos contidos nesta Política de Privacidade.
